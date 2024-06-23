@@ -1,7 +1,7 @@
 ﻿---
 layout: src/layouts/Redirect.astro
 title: Redirect
-redirect: https://octopus.com/docs/deployments/patterns/rolling-deployments
+redirect: https://yamldoc.liuyan.wang/docs/deployments/patterns/rolling-deployments
 pubDate:  2023-01-01
 navSearch: false
 navSitemap: false

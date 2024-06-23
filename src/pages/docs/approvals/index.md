@@ -45,7 +45,7 @@ What's included in our ServiceNow support?
 Learn more about our [ServiceNow integration](/docs/approvals/servicenow).
 
 :::div{.hint}
-ServiceNow integration is available to customers with an [enterprise subscription](https://octopus.com/pricing).
+ServiceNow integration is available to customers with an [enterprise subscription](https://yamldoc.liuyan.wang/pricing).
 :::
 
 ## Efficient change management approvals with Jira Service Management

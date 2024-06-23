@@ -50,4 +50,4 @@ The following platforms are explicitly supported (we run automated tests against
 
 ## Learn more
 
-- [Linux blog posts](https://octopus.com/blog/tag/linux)
+- [Linux blog posts](https://yamldoc.liuyan.wang/blog/tag/linux)

@@ -12,10 +12,10 @@ It will be possible to run both the old and cloned instances side by side.  Both
 As you migrate your instance, here are few items to consider.  
 
 1. Will the new instance's domain name be the same, or will it change?  For example, will it change from https://octopusdeploy.mydomain.com to https://octopus.mydomain.com.  If it changes and you are using polling Tentacles, you will need to create new Tentacle instances for the new Octopus Deploy instance.
-2. What CI, or build servers, integrate with Octopus Deploy?  Do those plug-ins need to be updated?  You can find several of the plug-ins on the [downloads page](https://octopus.com/downloads).
+2. What CI, or build servers, integrate with Octopus Deploy?  Do those plug-ins need to be updated?  You can find several of the plug-ins on the [downloads page](https://yamldoc.liuyan.wang/downloads).
 3. Do you have any internally developed tools or scripts that invoke the Octopus API?  We've done our best to maintain backward compatibility, but there might be some changes.  
 4. What components do you use the most?  What does a testing plan look like? 
-5. Chances are there are new features and functionality you haven't been exposed to.  How will you train people on the new functionality?  If unsure, please [contact us](https://octopus.com/support) to get pointed in the right direction.
+5. Chances are there are new features and functionality you haven't been exposed to.  How will you train people on the new functionality?  If unsure, please [contact us](https://yamldoc.liuyan.wang/support) to get pointed in the right direction.
 
 ### Drift concerns
 

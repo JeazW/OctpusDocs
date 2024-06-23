@@ -1,7 +1,7 @@
 ﻿---
 layout: src/layouts/Redirect.astro
 title: Redirect
-redirect: https://octopus.com/docs/runbooks/runbook-examples/routine/updating-linux
+redirect: https://yamldoc.liuyan.wang/docs/runbooks/runbook-examples/routine/updating-linux
 pubDate:  2023-01-01
 navSearch: false
 navSitemap: false

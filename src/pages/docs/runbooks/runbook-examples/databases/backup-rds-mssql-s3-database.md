@@ -9,7 +9,7 @@ navOrder: 90
 
 You can perform native backups of Amazon Relational Database instances running SQL Server. You may want to store the backup in S3 storage, and using an Octopus runbook is an easy way to automate the process. 
 
-In the following example, we'll use the [AWS RDS SQL Server - Backup to S3 Bucket](https://library.octopus.com/step-templates/3dd60fea-b98a-4760-8867-cbd049f7aa31/actiontemplate-aws-rds-sql-server-backup-to-s3-bucket) community step template.
+In the following example, we'll use the [AWS RDS SQL Server - Backup to S3 Bucket](https://library.yamldoc.liuyan.wang/step-templates/3dd60fea-b98a-4760-8867-cbd049f7aa31/actiontemplate-aws-rds-sql-server-backup-to-s3-bucket) community step template.
 
 ## AWS prerequisites
 

@@ -23,7 +23,7 @@ Some general points worth noting:
 - Octopus **does** capture login events for specific user accounts, but **not** logout.
 - Octopus **does not** capture when data is read, however certain sensitive actions like downloading a certificate with its private key is captured.
 
-If you are concerned that Octopus does not capture a specific action of interest to you, please contact our [support team](https://octopus.com/support).
+If you are concerned that Octopus does not capture a specific action of interest to you, please contact our [support team](https://yamldoc.liuyan.wang/support).
 
 ## Viewing the audit history
 
@@ -45,7 +45,7 @@ This feature makes it extremely easy to see who made what changes on the Octopus
 
 ## Security concerns
 
-We take great care to ensure the security and integrity of your audit logs, to make sure they are a trustworthy indelible record of every important activity in your Octopus installation. If you have any concerns please [reach out to us](https://octopus.com/support).
+We take great care to ensure the security and integrity of your audit logs, to make sure they are a trustworthy indelible record of every important activity in your Octopus installation. If you have any concerns please [reach out to us](https://yamldoc.liuyan.wang/support).
 
 ### Viewing audit logs
 
@@ -55,7 +55,7 @@ In **Octopus 2019.1** we removed **AuditView** in an effort to simplify permissi
 
 ### Streaming audit logs
 
-From **Octopus 2022.4** [enterprise-tier](https://octopus.com/pricing) customers have the option to [stream their audit logs](/docs/security/users-and-teams/auditing/audit-stream) to their chosen security information and event management (SIEM) solution.
+From **Octopus 2022.4** [enterprise-tier](https://yamldoc.liuyan.wang/pricing) customers have the option to [stream their audit logs](/docs/security/users-and-teams/auditing/audit-stream) to their chosen security information and event management (SIEM) solution.
 
 ### Sensitive values in audit logs
 

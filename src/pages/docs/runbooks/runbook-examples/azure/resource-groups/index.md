@@ -180,10 +180,10 @@ Azure Resource Manager supports the concept of [linking templates](https://docs.
 **Linked templates must be publicly accessible via URI**
 Please be aware that the URI you configure for the linked templates and parameters files must be publicly accessible by the Azure Resource Manager. For example: [http://www.contoso.com/AzureTemplates/newStorageAccount.json](http://www.contoso.com/AzureTemplates/newStorageAccount.json)
 
-Learn more about [linked templates](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-linked-templates) and refer to [this discussion](https://help.octopus.com/t/azure-resource-management-templates/9654) for more details.
+Learn more about [linked templates](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-linked-templates) and refer to [this discussion](https://help.yamldoc.liuyan.wang/t/azure-resource-management-templates/9654) for more details.
 :::
 
 ## Learn more
 
-- Generate an Octopus guide for [Azure and the rest of your CI/CD pipeline](https://octopus.com/docs/guides?destination=Azure%20websites).
+- Generate an Octopus guide for [Azure and the rest of your CI/CD pipeline](https://yamldoc.liuyan.wang/docs/guides?destination=Azure%20websites).
 

@@ -6,4 +6,4 @@ Migrating data from Octopus to a test instance requires both the main instance a
 ![](/docs/shared-content/upgrade/images/find-current-version.png)
 :::
 
-You can find all the previous versions on the [previous versions download page](https://octopus.com/downloads/previous).
+You can find all the previous versions on the [previous versions download page](https://yamldoc.liuyan.wang/downloads/previous).

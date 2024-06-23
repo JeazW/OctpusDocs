@@ -79,7 +79,7 @@ For example, to execute a script from the Script Console against one or more dep
 
 Similar permissions would also need to be granted if you were selecting specific Tenants.
 
-To learn how to configure access to the Script Console for a subset of users, take a look at this [knowledge base article](https://help.octopus.com/t/permissions-required-for-script-console-access-only/24790/).
+To learn how to configure access to the Script Console for a subset of users, take a look at this [knowledge base article](https://help.yamldoc.liuyan.wang/t/permissions-required-for-script-console-access-only/24790/).
 
 ## Collect artifacts {#ScriptConsole-Collectingartifacts}
 

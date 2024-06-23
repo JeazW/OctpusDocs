@@ -21,7 +21,7 @@ Octopus Cloud will automatically destroy dynamic workers as soon as one of these
 - The worker has been idle for 60 minutes.
 - The worker has existed for 72 hours (3 days).
 
-Please reach out to our [support team](https://octopus.com/support) if you need these values to be adjusted for your instance. 
+Please reach out to our [support team](https://yamldoc.liuyan.wang/support) if you need these values to be adjusted for your instance. 
 :::
 
 Worker VMs are provisioned with at least 20GB of available disk space, which is persistent until the worker is destroyed.
@@ -95,7 +95,7 @@ Each `Ubuntu Server 22.04` worker is provisioned with a baseline of tools includ
 - GCloud CLI (367.0.0)
 
 :::div{.hint}
-Ubuntu workers are designed to use [execution worker containers](https://octopus.com/blog/execution-containers) for tooling such as `kubectl` and `helm`. This makes it much easier to choose the appropriate runtime environment with the tools you need for your use case.
+Ubuntu workers are designed to use [execution worker containers](https://yamldoc.liuyan.wang/blog/execution-containers) for tooling such as `kubectl` and `helm`. This makes it much easier to choose the appropriate runtime environment with the tools you need for your use case.
 :::
 
 ### Ubuntu 18.04
@@ -182,5 +182,5 @@ If you choose to install additional software on a dynamic worker, you are respon
 
 ## Learn more
 
-- [Worker blog posts](https://octopus.com/blog/tag/workers)
+- [Worker blog posts](https://yamldoc.liuyan.wang/blog/tag/workers)
 - [Worker Tools, versioning and caching](/docs/infrastructure/workers/worker-tools-versioning-and-caching)

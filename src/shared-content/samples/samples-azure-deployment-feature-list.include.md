@@ -20,10 +20,10 @@
     
 **Pattern - Tenants**
 
-- <a href="https://samples.octopus.app/app#/Spaces-682/projects/Projects-1302/deployments/process" target="_blank">Vet Clinic</a>: <i>A project that deploys the VetClinic application for [multiple customers modeled as tenants](https://octopus.com/docs/tenants/guides/multi-tenant-saas-application).</i>
+- <a href="https://samples.octopus.app/app#/Spaces-682/projects/Projects-1302/deployments/process" target="_blank">Vet Clinic</a>: <i>A project that deploys the VetClinic application for [multiple customers modeled as tenants](https://yamldoc.liuyan.wang/docs/tenants/guides/multi-tenant-saas-application).</i>
 - <a href="https://samples.octopus.app/app#/Spaces-682/projects/Projects-1341/deployments/process" target="_blank">Car Rental</a>: <i>A sample car rental application utilizing PHP, Linux, and MySQL. [Build definition](https://jenkins.octopussamples.com/job/CarRental/)</i>
-- <a href="https://samples.octopus.app/app#/Spaces-682/projects/Projects-1361/deployments/process" target="_blank">OctoPetShop</a>: <i>A project that deploys the OctoPetShop application for [different teams modeled as tenants](https://octopus.com/docs/tenants/guides/multi-tenant-teams).</i>
-- <a href="https://samples.octopus.app/app#/Spaces-682/projects/Projects-1581/deployments/process" target="_blank">OctoHR</a>: <i>A sample [version-controlled](https://octopus.com/docs/projects/version-control) project illustrating a single codebase (web app) with multiple separate customer (tenant) databases that users can access. Source code available on [GitHub](https://github.com/OctopusSamples/OctoHR).</i>
+- <a href="https://samples.octopus.app/app#/Spaces-682/projects/Projects-1361/deployments/process" target="_blank">OctoPetShop</a>: <i>A project that deploys the OctoPetShop application for [different teams modeled as tenants](https://yamldoc.liuyan.wang/docs/tenants/guides/multi-tenant-teams).</i>
+- <a href="https://samples.octopus.app/app#/Spaces-682/projects/Projects-1581/deployments/process" target="_blank">OctoHR</a>: <i>A sample [version-controlled](https://yamldoc.liuyan.wang/docs/projects/version-control) project illustrating a single codebase (web app) with multiple separate customer (tenant) databases that users can access. Source code available on [GitHub](https://github.com/OctopusSamples/OctoHR).</i>
     
 **Pattern-AutoScaling**
 
@@ -32,7 +32,7 @@
     
 **Secrets Management**
 
-- <a href="https://samples.octopus.app/app#/Spaces-822/projects/Projects-1701/deployments/process" target="_blank">Azure Key Vault</a>: <i>Sample project retrieving secrets from Azure Key Vault using the [Retrieve Secrets](https://library.octopus.com/step-templates/6f59f8aa-b2db-4f7a-b02d-a72c13d386f0/actiontemplate-azure-key-vault-retrieve-secrets) step template.</i>
+- <a href="https://samples.octopus.app/app#/Spaces-822/projects/Projects-1701/deployments/process" target="_blank">Azure Key Vault</a>: <i>Sample project retrieving secrets from Azure Key Vault using the [Retrieve Secrets](https://library.yamldoc.liuyan.wang/step-templates/6f59f8aa-b2db-4f7a-b02d-a72c13d386f0/actiontemplate-azure-key-vault-retrieve-secrets) step template.</i>
     
 **Target - Hybrid**
 

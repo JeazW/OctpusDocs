@@ -55,6 +55,6 @@ For instructions to set up a Google cloud account in Octopus, see [Google Cloud 
 
 ## Learn more
 
-- [Variable blog posts](https://octopus.com/blog/tag/variables)
+- [Variable blog posts](https://yamldoc.liuyan.wang/blog/tag/variables)
 - How to use the [Run gcloud in a Script](/docs/deployments/google-cloud/run-gcloud-script) step
 - How to create [Google cloud accounts](/docs/infrastructure/accounts/google-cloud)

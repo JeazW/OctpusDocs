@@ -305,7 +305,7 @@ See [Create Kubernetes Target Command](/docs/infrastructure/deployment-targets/d
 
 ## Troubleshooting
 
-If you're running into issues with your Kubernetes targets, it's possible you'll be able to resolve the issue using some of these troubleshooting tips. If this section doesn't help, please [get in touch](https://octopus.com/support).
+If you're running into issues with your Kubernetes targets, it's possible you'll be able to resolve the issue using some of these troubleshooting tips. If this section doesn't help, please [get in touch](https://yamldoc.liuyan.wang/support).
 
 ### Debugging
 
@@ -392,4 +392,4 @@ If you are finding that certain API calls are failing, for example `https://your
 ## Learn more
 
 - [Kubernetes Deployment](/docs/deployments/kubernetes)
-- [Kubernetes blog posts](https://octopus.com/blog/tag/kubernetes)
+- [Kubernetes blog posts](https://yamldoc.liuyan.wang/blog/tag/kubernetes)

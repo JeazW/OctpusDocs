@@ -13,7 +13,7 @@ navOrder: 130
 If you're looking to secure your Octopus instance with a TLS certificate, take a look at our built-in [Let's Encrypt integration](/docs/security/exposing-octopus/lets-encrypt-integration).
 :::
 
-In the following example, we'll use the [Lets Encrypt - Azure DNS](https://library.octopus.com/step-templates/79e0dd12-6222-4f8a-a8dc-bcbe579ed729/actiontemplate-lets-encrypt-azure-dns) community step template.
+In the following example, we'll use the [Lets Encrypt - Azure DNS](https://library.yamldoc.liuyan.wang/step-templates/79e0dd12-6222-4f8a-a8dc-bcbe579ed729/actiontemplate-lets-encrypt-azure-dns) community step template.
 
 ## Create the runbook
 
@@ -44,4 +44,4 @@ We have an [Octopus Admin](https://oc.to/OctopusAdminSamplesSpace) Space on our 
 
 ## Learn More
 
-- [Let's Encrypt Community Step templates](https://library.octopus.com/listing/letsencrypt)
+- [Let's Encrypt Community Step templates](https://library.yamldoc.liuyan.wang/listing/letsencrypt)

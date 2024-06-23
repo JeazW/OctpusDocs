@@ -56,7 +56,7 @@ At this point we do not see the genuine value proposition in supporting a featur
 
 Set your PowerShell Execution Policy for general user accounts to one of the more restrictive options, but allow the Octopus user account to use the `Unrestricted` security policy.
 
-If this approach doesn't feel like it will work, and script integrity is a real problem for you please [get in touch with us](https://octopus.com/support). We would be very happy to help find an acceptable solution for your specific situation.
+If this approach doesn't feel like it will work, and script integrity is a real problem for you please [get in touch with us](https://yamldoc.liuyan.wang/support). We would be very happy to help find an acceptable solution for your specific situation.
 
 In case you want to read further and consider other options for securing your Octopus installation:
 

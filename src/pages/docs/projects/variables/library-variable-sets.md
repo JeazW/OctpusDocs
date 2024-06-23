@@ -65,4 +65,4 @@ Read more about our recommendations for [variable naming](/docs/getting-started/
 
 ## Learn more
 
-- [Variable blog posts](https://octopus.com/blog/tag/variables)
+- [Variable blog posts](https://yamldoc.liuyan.wang/blog/tag/variables)

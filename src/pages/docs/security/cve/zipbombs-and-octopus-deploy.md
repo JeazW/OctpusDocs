@@ -24,7 +24,7 @@ The responsibility for protecting against ZipBomb attacks is shared between us a
 
 ### What is Octopus Deploy responsible for?
 
-We take responsibility to provide commercially reasonable protection against ZipBomb attacks. If you [find and report](https://octopus.com/security/disclosure) a specific ZipBomb vulnerability, we will follow our practice of [responsible disclosure](https://octopus.com/security/disclosure).
+We take responsibility to provide commercially reasonable protection against ZipBomb attacks. If you [find and report](https://yamldoc.liuyan.wang/security/disclosure) a specific ZipBomb vulnerability, we will follow our practice of [responsible disclosure](https://yamldoc.liuyan.wang/security/disclosure).
 
 We will assist Octopus Cloud customers in adjusting their instance limits if [the default limits](#cloud-limits) are impacting their ability to deploy legitimate packages.
 
@@ -49,7 +49,7 @@ The following archive limits are in place for all Octopus Cloud customers, which
 * Maximum size an archive can decompress to on Octopus Server for all other operations: 10 gigabytes
   * Applies to any other non-deployment operations that use archives
 
-These limits can be adjusted on a per-customer basis. If your standard business operations are being impacted by these limits, please contact our [support team](https://octopus.com/support) and we'll be happy to help adjust your limits to find the appropriate balance of functionality and protection.
+These limits can be adjusted on a per-customer basis. If your standard business operations are being impacted by these limits, please contact our [support team](https://yamldoc.liuyan.wang/support) and we'll be happy to help adjust your limits to find the appropriate balance of functionality and protection.
 
 ### Self-Hosted default archive limits {#self-hosted-limits}
 The following default archive limits are in place for all self-hosted:

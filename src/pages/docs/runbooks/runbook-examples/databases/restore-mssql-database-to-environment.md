@@ -55,5 +55,5 @@ We have a [Target - Windows](https://oc.to/TargetWindowsSamplesSpace) Space on o
 
 ## Learn more
 
-- [SQL Backup - Community Step template](https://library.octopus.com/step-templates/34b4fa10-329f-4c50-ab7c-d6b047264b83/actiontemplate-sql-backup-database)
-- [SQL Fix Orphaned User - Community Step Template](https://library.octopus.com/step-templates/e56e9b28-1cf2-4646-af70-93e31bcdb86b/actiontemplate-sql-fix-orphaned-user)
+- [SQL Backup - Community Step template](https://library.yamldoc.liuyan.wang/step-templates/34b4fa10-329f-4c50-ab7c-d6b047264b83/actiontemplate-sql-backup-database)
+- [SQL Fix Orphaned User - Community Step Template](https://library.yamldoc.liuyan.wang/step-templates/e56e9b28-1cf2-4646-af70-93e31bcdb86b/actiontemplate-sql-fix-orphaned-user)

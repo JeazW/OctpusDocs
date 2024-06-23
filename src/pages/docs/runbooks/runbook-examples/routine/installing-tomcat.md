@@ -151,7 +151,7 @@ We have a [Pattern - Rolling](https://oc.to/PatternRollingSamplesSpace) Space on
 
 ## Learn more
 
-- Generate an Octopus guide for [Java, Tomcat, and the rest of your CI/CD pipeline](https://octopus.com/docs/guides?application=Java&destination=Tomcat).
-- [Java blog posts](https://octopus.com/blog/tag/java).
+- Generate an Octopus guide for [Java, Tomcat, and the rest of your CI/CD pipeline](https://yamldoc.liuyan.wang/docs/guides?application=Java&destination=Tomcat).
+- [Java blog posts](https://yamldoc.liuyan.wang/blog/tag/java).
 - [Webinar: Octopus 101: Deploy Your First Java Application](https://www.youtube.com/watch?v=AM6GyYr2n4Y)
 - [Java application deployment example](/docs/deployments/java/deploying-java-applications).

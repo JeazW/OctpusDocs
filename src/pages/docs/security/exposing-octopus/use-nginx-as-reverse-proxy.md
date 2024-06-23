@@ -187,7 +187,7 @@ ADMIN_EMAIL=test@test.com
 # Accept the Microsoft Sql Server Eula found here: https://go.microsoft.com/fwlink/?linkid=857698
 ACCEPT_EULA=Y
 
-# Use of this Image means you must accept the Octopus Deploy Eula found here: https://octopus.com/company/legal
+# Use of this Image means you must accept the Octopus Deploy Eula found here: https://yamldoc.liuyan.wang/company/legal
 ACCEPT_OCTOPUS_EULA=Y
 
 # Unique Server Node Name - If left empty will default to the machine Name

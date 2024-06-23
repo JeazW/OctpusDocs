@@ -1,7 +1,7 @@
 ﻿---
 layout: src/layouts/Redirect.astro
 title: Redirect
-redirect: https://octopus.com/docs/tenants
+redirect: https://yamldoc.liuyan.wang/docs/tenants
 pubDate:  2023-01-01
 navSearch: false
 navSitemap: false

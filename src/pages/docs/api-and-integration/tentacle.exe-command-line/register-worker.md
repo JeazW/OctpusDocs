@@ -1,7 +1,7 @@
 ﻿---
 layout: src/layouts/Redirect.astro
 title: Redirect
-redirect: https://octopus.com/docs/octopus-rest-api/tentacle.exe-command-line/register-worker
+redirect: https://yamldoc.liuyan.wang/docs/octopus-rest-api/tentacle.exe-command-line/register-worker
 pubDate:  2023-01-01
 navSearch: false
 navSitemap: false

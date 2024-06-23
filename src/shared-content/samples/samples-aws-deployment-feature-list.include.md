@@ -5,7 +5,7 @@
     
 **Secrets Management**
 
-- <a href="https://samples.octopus.app/app#/Spaces-822/projects/Projects-1702/deployments/process" target="_blank">AWS Secrets Manager</a>: <i>Sample project retrieving secrets from AWS Secrets Manager using the [Retrieve Secrets](https://library.octopus.com/step-templates/5d5bd3ae-09a0-41ac-9a45-42a96ee6206a/actiontemplate-aws-secrets-manager-retrieve-secrets) step template.</i>
+- <a href="https://samples.octopus.app/app#/Spaces-822/projects/Projects-1702/deployments/process" target="_blank">AWS Secrets Manager</a>: <i>Sample project retrieving secrets from AWS Secrets Manager using the [Retrieve Secrets](https://library.yamldoc.liuyan.wang/step-templates/5d5bd3ae-09a0-41ac-9a45-42a96ee6206a/actiontemplate-aws-secrets-manager-retrieve-secrets) step template.</i>
     
 **Target - Containers**
 
@@ -43,7 +43,7 @@
     
 **Target - Serverless**
 
-- <a href="https://samples.octopus.app/app#/Spaces-1/projects/Projects-1465/deployments/process" target="_blank">AWS SAM</a>: <i>AWS SAM deployment based on the [blog post](https://octopus.com/blog/aws-sam-and-octopus) using code in the [AWSSamExample](https://github.com/OctopusSamples/AWSSamExample) repo.</i>
+- <a href="https://samples.octopus.app/app#/Spaces-1/projects/Projects-1465/deployments/process" target="_blank">AWS SAM</a>: <i>AWS SAM deployment based on the [blog post](https://yamldoc.liuyan.wang/blog/aws-sam-and-octopus) using code in the [AWSSamExample](https://github.com/OctopusSamples/AWSSamExample) repo.</i>
 - <a href="https://samples.octopus.app/app#/Spaces-1/projects/Projects-1742/deployments/process" target="_blank">AWS OctoSubscriber</a>: <i>A Lambda Function that accepts and processes Octopus Deploy Subscription Guided Failure or Manual Intervention Events. [Build definition](https://github.com/OctopusSamples/OctoSubscriber/blob/main/.github/workflows/AWSLambdas.yml)</i>
 - <a href="https://samples.octopus.app/app#/Spaces-1/projects/Projects-1781/deployments/process" target="_blank">AWS Subscriber S3</a>: <i>A Lambda Function that accepts and processes Octopus Deploy Subscription Events</i>
 - <a href="https://samples.octopus.app/app#/Spaces-1/projects/Projects-511/deployments/process" target="_blank">Sample AWS Lambda</a>

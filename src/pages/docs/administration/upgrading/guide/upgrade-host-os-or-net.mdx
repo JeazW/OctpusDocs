@@ -29,7 +29,7 @@ The new node is now part of the HA cluster, but it isn't part of the load balanc
 
 ### Test the Octopus UI on the new node
 
-The first step is to test the Octopus UI to make sure it is responding correctly.  To do that, you can follow this process.  It is meant to take a little bit of time to reduce risk.  If at any point something isn't working, please contact our [support team](https://octopus.com/support).
+The first step is to test the Octopus UI to make sure it is responding correctly.  To do that, you can follow this process.  It is meant to take a little bit of time to reduce risk.  If at any point something isn't working, please contact our [support team](https://yamldoc.liuyan.wang/support).
 
 1. Navigate directly to the new VM and use Octopus Deploy as you'd regularly do for a few hours or days.
 2. Assuming everything is working as expected, add the new node into the load balancer.  If possible, configure the load balancer to only use the new node for 10 or 20% of all requests.
@@ -83,10 +83,10 @@ All the sensitive variables, certificates, and other items required to connect t
 As you migrate your instance, here are few items to consider.  
 
 1. Will the new instance's domain name be the same or will it change?  For example, will it change from https://octopusdeploy.mydomain.com to https://octopus.mydomain.com.  If it changes and you are using polling Tentacles, you will need to create new Tentacle instances for the new Octopus Deploy instance.
-2. What CI, or build servers, integrate with Octopus Deploy?  Do those plug-ins need to be updated?  You can find several of the plug-ins on the [downloads page](https://octopus.com/downloads).
+2. What CI, or build servers, integrate with Octopus Deploy?  Do those plug-ins need to be updated?  You can find several of the plug-ins on the [downloads page](https://yamldoc.liuyan.wang/downloads).
 3. Do you have any internally developed tools or scripts that invoke the Octopus API?  We've done our best to maintain backward compatibility, but there might be some changes.  
 4. What components do you use the most?  What does a testing plan look like? 
-5. Chances are there are new features and functionality you haven't been exposed to.  How will you train people on the new functionality?  If unsure, please [contact us](https://octopus.com/support) to get pointed in the right direction.
+5. Chances are there are new features and functionality you haven't been exposed to.  How will you train people on the new functionality?  If unsure, please [contact us](https://yamldoc.liuyan.wang/support) to get pointed in the right direction.
 
 ### Polling Tentacles
 

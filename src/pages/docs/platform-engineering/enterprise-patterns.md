@@ -27,7 +27,7 @@ This sections describes the enterprise patterns and notes how you can use them t
 
 ![Separate Spaces diagram](/docs/platform-engineering/separate-spaces.png "width=500")
 
-The most common pattern is to partition a single Octopus installation into [separate spaces](https://octopus.com/blog/best-practices-spaces). Octopus is fairly agnostic about what individual spaces represent, but it's common to provide a space for business units or application stacks. If the space represents a stable context for the projects it holds (meaning Octopus projects are unlikely to move between spaces, even as people move between teams or security requirements change), spaces are a convenient way to split projects and define security boundaries.
+The most common pattern is to partition a single Octopus installation into [separate spaces](https://yamldoc.liuyan.wang/blog/best-practices-spaces). Octopus is fairly agnostic about what individual spaces represent, but it's common to provide a space for business units or application stacks. If the space represents a stable context for the projects it holds (meaning Octopus projects are unlikely to move between spaces, even as people move between teams or security requirements change), spaces are a convenient way to split projects and define security boundaries.
 
 This pattern is very easy to implement, as it often involves little more than creating a new space and assigning security permissions. We expect most Octopus users to naturally adopt spaces as their use of the platform grows.
 
@@ -77,7 +77,7 @@ Tenants are a natural solution for teams that need to independently deploy appli
 
 However, the RBAC controls around tenants are not expressive enough to isolate customers if they log into the Octopus installation and you grant them permissions to see a single tenant. For example, you can't scope channels, tasks, and audit logs to a tenant.
 
-You can find more information about [tenants in our documentation](https://octopus.com/docs/tenants).
+You can find more information about [tenants in our documentation](https://yamldoc.liuyan.wang/docs/tenants).
 
 | Feature  | Solves  |
 |---|---|
@@ -92,7 +92,7 @@ You can find more information about [tenants in our documentation](https://octop
 
 ![Managed spaces diagram](/docs/platform-engineering/managed-spaces.png "width=500")
 
-This solution represents a typical "hub and spoke", or [platform engineering](https://octopus.com/devops/platform-engineering/), approach. Each application stack or business unit has its own space, and some or all of the space configuration is centrally managed.
+This solution represents a typical "hub and spoke", or [platform engineering](https://yamldoc.liuyan.wang/devops/platform-engineering/), approach. Each application stack or business unit has its own space, and some or all of the space configuration is centrally managed.
 
 A tenant represents each space in the management space, also known as the upstream space. And deployment projects or runbooks configure the managed spaces, also known as downstream spaces. You can use the Terraform provider or raw API scripting to push configuration for shared resources, like template projects, to the managed spaces.
 
@@ -110,7 +110,7 @@ A tenant represents each space in the management space, also known as the upstre
 
 ![Managed instances diagram](/docs/platform-engineering/managed-instances.png "width=500")
 
-Like the "managed space per business unit/application" pattern, this represents a typical "hub and spoke", or [platform engineering](https://octopus.com/devops/platform-engineering/), approach. However, each business unit or region gets its own Octopus installation.
+Like the "managed space per business unit/application" pattern, this represents a typical "hub and spoke", or [platform engineering](https://yamldoc.liuyan.wang/devops/platform-engineering/), approach. However, each business unit or region gets its own Octopus installation.
 
 A tenant represents each managed Octopus instance in the management (or upstream) space. And deployment projects or runbooks configure the managed (or downstream) Octopus instances. You can use the Terraform provider or raw API scripting to push configuration for shared resources, like template projects, to the managed instances.
 
@@ -150,7 +150,7 @@ The custom UI provides an almost unlimited ability to control and customize the 
 
 This solution also allows orchestrating deployments across multiple Octopus installations from a single shared UI.
 
-You can find more information about the [Octopus REST API in our documentation](https://octopus.com/docs/octopus-rest-api).
+You can find more information about the [Octopus REST API in our documentation](https://yamldoc.liuyan.wang/docs/octopus-rest-api).
 
 | Feature  | Solves  |
 |---|---|
@@ -192,7 +192,7 @@ Some of these patterns require little effort to deploy or are deeply embedded in
 - [Tenant per customer](/docs/tenants)
 
 
-The "custom UI over Octopus installation" is an advanced pattern that requires a dedicated development team to build a web application that consumes the Octopus REST API. You can refer to the [API documentation](https://octopus.com/docs/octopus-rest-api) for more information if you're interested in this pattern.
+The "custom UI over Octopus installation" is an advanced pattern that requires a dedicated development team to build a web application that consumes the Octopus REST API. You can refer to the [API documentation](https://yamldoc.liuyan.wang/docs/octopus-rest-api) for more information if you're interested in this pattern.
 
 The following patterns are implemented using the strategies documented in the [managing space resources](managing-space-resources) and [managing project resources](managing-project-resources) sections:
 

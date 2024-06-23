@@ -70,7 +70,7 @@ For more information about using OCI-based registries and how to run your own pr
 :::div{.info}
 Octopus version `2024.1` added support for Helm charts stored in Git repositories.
 
-You can find more information about this feature in this [blog post on using Git resources directly in deployments](https://octopus.com/blog/git-resources-in-deployments).
+You can find more information about this feature in this [blog post on using Git resources directly in deployments](https://yamldoc.liuyan.wang/blog/git-resources-in-deployments).
 :::
 
 Sourcing your Helm charts from a Git Repository can streamline your deployment process by reducing the amount of steps required to get them into Octopus.
@@ -186,5 +186,5 @@ To ensure a smooth deployment experience, we recommend setting a larger Octopus 
 
 ## Learn more
 
-- Generate an Octopus guide for [Kubernetes and the rest of your CI/CD pipeline](https://octopus.com/docs/guides?destination=Kubernetes)
-- [Kubernetes blog posts](https://octopus.com/blog/tag/kubernetes)
+- Generate an Octopus guide for [Kubernetes and the rest of your CI/CD pipeline](https://yamldoc.liuyan.wang/docs/guides?destination=Kubernetes)
+- [Kubernetes blog posts](https://yamldoc.liuyan.wang/blog/tag/kubernetes)

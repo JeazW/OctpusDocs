@@ -94,7 +94,7 @@ An ideal situation would be an Octopus Server that's performing as many parallel
 
 Instead, we decided to put this control into your hands, allowing you to control how many tasks each Octopus Server node will execute concurrently. This way, you can measure server metrics for **your own deployments**, and then increase/decrease the task cap appropriately. Administrators can change the task cap in **Configuration ➜ Nodes**.
 
-See this [blog post](https://octopus.com/blog/running-task-cap-and-high-availability) for more details on why we chose this approach.
+See this [blog post](https://yamldoc.liuyan.wang/blog/running-task-cap-and-high-availability) for more details on why we chose this approach.
 
 The default task cap is set to `5` out of the box. Based on our load testing, this offered the best balance of throughput and stability for most scenarios.  Increasing that to 10 should be fine without requiring more CPU or RAM.  Anything more and we recommend [High Availability](/docs/administration/high-availability).
 
@@ -108,7 +108,7 @@ In addition to linearly increasing the performance of your cluster, you can perf
 
 ### Workers
 
-Consider using [Workers](/docs/infrastructure/workers) and worker pools if deployment load is affecting your server.  See this [blog post](https://octopus.com/blog/workers-performance) for a way to begin looking at workers for performance.
+Consider using [Workers](/docs/infrastructure/workers) and worker pools if deployment load is affecting your server.  See this [blog post](https://yamldoc.liuyan.wang/blog/workers-performance) for a way to begin looking at workers for performance.
 
 ### Spaces
 
@@ -225,7 +225,7 @@ Analyzing Octopus Server log files for performance problems is much easier in a 
 
 ## Getting help from us \{#support}
 
-If none of the above troubleshooting steps work, please get in contact with our [support team](https://octopus.com/support) and send along the following details to help us debug:
+If none of the above troubleshooting steps work, please get in contact with our [support team](https://yamldoc.liuyan.wang/support) and send along the following details to help us debug:
 
 1. An overview of the problem and when it occurs (page load, during a deployment, only when doing lots of deployments, etc.)
 1. Frequency of the problem happening (on every deployment, on initial startup, etc.)

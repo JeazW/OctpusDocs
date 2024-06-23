@@ -14,4 +14,4 @@ See [IIS Websites and Applications](/docs/deployments/windows/iis-websites-and-a
 
 ## Learn more
 
-- Generate an Octopus guide for [IIS and the rest of your CI/CD pipeline](https://octopus.com/docs/guides?destination=IIS).
+- Generate an Octopus guide for [IIS and the rest of your CI/CD pipeline](https://yamldoc.liuyan.wang/docs/guides?destination=IIS).

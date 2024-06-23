@@ -65,7 +65,7 @@ For example:
 `https://demo.octopus.app/api/reporting/deployments/xml?apikey=API-GUEST`
 `https://your.octopus.app/api/reporting/deployments/xml?apikey=API-1234567891234567891234567`
 
-The XML feed can be consumed programmatically, or via Excel or [Microsoft PowerBI](https://powerbi.microsoft.com/). We have a blog on how to do this using [PowerBI](https://octopus.com/blog/powerbi-report-for-octopus-deploy)
+The XML feed can be consumed programmatically, or via Excel or [Microsoft PowerBI](https://powerbi.microsoft.com/). We have a blog on how to do this using [PowerBI](https://yamldoc.liuyan.wang/blog/powerbi-report-for-octopus-deploy)
 
 Since a user-specific API key is used to consume the data, only data that the user can see will appear in the report.
 
@@ -97,4 +97,4 @@ This is due to that the revocation information for the certificate is not retrie
 
 ## Learn more
 
-- [Reporting blog posts](https://octopus.com/blog/tag/reporting).
+- [Reporting blog posts](https://yamldoc.liuyan.wang/blog/tag/reporting).

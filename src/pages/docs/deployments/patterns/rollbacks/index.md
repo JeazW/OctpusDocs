@@ -76,13 +76,13 @@ Calculating deployment mode is done by comparing the system variable `Octopus.Re
 - When `Octopus.Release.CurrentForEnvironment.Number` is greater than `Octopus.Release.Number` then the deployment mode is **Rollback**.
 - When `Octopus.Release.CurrentForEnvironment.Number` is equal to `Octopus.Release.Number` then the deployment mode is **Redeployment**.
 
-We have created the step template [Calculate Deployment Mode](https://library.octopus.com/step-templates/d166457a-1421-4731-b143-dd6766fb95d5/actiontemplate-calculate-deployment-mode) to do that for you.
+We have created the step template [Calculate Deployment Mode](https://library.yamldoc.liuyan.wang/step-templates/d166457a-1421-4731-b143-dd6766fb95d5/actiontemplate-calculate-deployment-mode) to do that for you.
 
 ### Enabling and disabling steps based on deployment mode
 
 Once you know the deployment mode, you can enable or disable steps using [output variables](/docs/projects/variables/output-variables) and [variable run conditions](/docs/projects/steps/conditions/#variable-expressions).  You can have steps run only on **Rollback**, only on **Deploy**, only on **Deploy** or **Redeployment**, or any other combination.  
 
-The step template [Calculate Deployment Mode](https://library.octopus.com/step-templates/d166457a-1421-4731-b143-dd6766fb95d5/actiontemplate-calculate-deployment-mode) includes a number of [output variables](/docs/projects/variables/output-variables).
+The step template [Calculate Deployment Mode](https://library.yamldoc.liuyan.wang/step-templates/d166457a-1421-4731-b143-dd6766fb95d5/actiontemplate-calculate-deployment-mode) includes a number of [output variables](/docs/projects/variables/output-variables).
 
  - **DeploymentMode**: Will be `Deploy`, `Rollback`, or `Redeploy`.
  - **Trigger**: This indicates if the deployment was caused by a deployment target trigger or a scheduled trigger.  It will be `True` or `False`.
@@ -110,7 +110,7 @@ The usage will be:
 
 ## Automatic trigger of rollbacks
 
-Using the [Octopus CLI](/docs/octopus-rest-api/octopus-cli/deploy-release), or [one of our step templates](https://library.octopus.com/step-templates/0dac2fe6-91d5-4c05-bdfb-1b97adf1e12e/actiontemplate-deploy-child-octopus-deploy-project) it is possible to automatically trigger a rollback process.  
+Using the [Octopus CLI](/docs/octopus-rest-api/octopus-cli/deploy-release), or [one of our step templates](https://library.yamldoc.liuyan.wang/step-templates/0dac2fe6-91d5-4c05-bdfb-1b97adf1e12e/actiontemplate-deploy-child-octopus-deploy-project) it is possible to automatically trigger a rollback process.  
 
 While it is possible to automatically trigger a rollback, this is not something we recommend unless you have a robust testing suite and you've tested your rollback process multiple times.  We recommend first manually triggering the rollback.  Once you are confident in your rollback process, look into updating your process to be automatically triggered.
 
@@ -167,11 +167,11 @@ In our experience, deployments (and rollbacks) have the highest chance of succes
 That is the core concept around deployment patterns:
 
 - [Blue/Green Deployments](https://martinfowler.com/bliki/BlueGreenDeployment.html)
-- [Red/Black Deployments](https://octopus.com/blog/blue-green-red-black)
+- [Red/Black Deployments](https://yamldoc.liuyan.wang/blog/blue-green-red-black)
 - [Canary Deployments](https://martinfowler.com/bliki/CanaryRelease.html)
 
 In addition, a lot of popular tools have similar concepts and provide the necessary tools.  Some examples include:
 
 - [Azure Web App "Staging" slots](https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots)
-- [Kubernetes Blue/Green Deployments](https://octopus.com/blog/deconstructing-blue-green-deployments)
+- [Kubernetes Blue/Green Deployments](https://yamldoc.liuyan.wang/blog/deconstructing-blue-green-deployments)
 - [Canary Deployments on AWS Lambda Functions](https://aws.amazon.com/blogs/compute/implementing-canary-deployments-of-aws-lambda-functions-with-alias-traffic-shifting/)

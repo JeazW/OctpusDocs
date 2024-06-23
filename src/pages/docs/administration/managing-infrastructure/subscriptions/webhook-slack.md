@@ -16,7 +16,7 @@ You can configure Octopus to send message to a [Slack](https://slack.com/) Works
 - Configure a tool to consume the webhook from Octopus and forward a message on to Slack.
 
 :::div{.hint}
-A number of technologies can be used to consume the webhook from Octopus.  This document uses an [Azure Function App](https://docs.microsoft.com/en-us/azure/azure-functions/).  Another alternative is to use Firebase Cloud Functions, and this is described in this [blog](https://octopus.com/blog/notifications-with-subscriptions-and-webhooks).
+A number of technologies can be used to consume the webhook from Octopus.  This document uses an [Azure Function App](https://docs.microsoft.com/en-us/azure/azure-functions/).  Another alternative is to use Firebase Cloud Functions, and this is described in this [blog](https://yamldoc.liuyan.wang/blog/notifications-with-subscriptions-and-webhooks).
 :::
 
 ## Configure an Octopus subscription to send a webhook
@@ -141,7 +141,7 @@ The Octopus subscription has been created and set up to send data to RequestBin.
             ],
             "Category": "Created",
             "UserId": "Users-27",
-            "Username": "xxxxxxxx@octopus.com",
+            "Username": "xxxxxxxx@yamldoc.liuyan.wang",
             "IsService": false,
             "IdentityEstablishedWith": "Session cookie",
             "UserAgent": "OctopusClient-js/2020.2.2",

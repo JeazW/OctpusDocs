@@ -54,5 +54,5 @@ Or one of the common options:
 This example will add or update the administrator account with the username of `OctoAdmin`:
 
 ```
-octopus.server admin --username="OctoAdmin" --password="My$uper$cr3tP@ssword!" --email="admin@octopus.com"
+octopus.server admin --username="OctoAdmin" --password="My$uper$cr3tP@ssword!" --email="admin@yamldoc.liuyan.wang"
 ```

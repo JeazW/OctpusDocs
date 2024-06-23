@@ -19,7 +19,7 @@ The following example tests the URL of an application, if the expected `200` cod
 
 Add the following steps:
 
-- Community Step Template [HTTP - Test URL](https://library.octopus.com/step-templates/f5cebc0a-cc16-4876-9f72-bfbd513e6fdd/actiontemplate-http-test-url).
+- Community Step Template [HTTP - Test URL](https://library.yamldoc.liuyan.wang/step-templates/f5cebc0a-cc16-4876-9f72-bfbd513e6fdd/actiontemplate-http-test-url).
 - `Run an Azure Script` to start Web server; configured to run only on failure:
 
 ```powershell

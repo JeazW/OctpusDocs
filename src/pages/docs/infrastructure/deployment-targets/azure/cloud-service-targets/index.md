@@ -17,7 +17,7 @@ Support for this feature will be deprecated in Octopus Server from the `2024.1` 
 
 ## Requirements
 
-You can read more about all the PaaS targets [in our blog](https://octopus.com/blog/paas-targets).
+You can read more about all the PaaS targets [in our blog](https://yamldoc.liuyan.wang/blog/paas-targets).
 
 - You will need an [Azure Management Certificate account](/docs/infrastructure/accounts/azure/#azure-management-certificate) that references your Azure subscription.
 

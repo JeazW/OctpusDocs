@@ -57,7 +57,7 @@ You must select the [channels](/docs/releases/channels) that will be used for an
 
 ## Automatically creating pre-releases {#BuiltInPackageRepositoryTriggers-AutomaticallyCreatingPreReleases}
 
-When you push a package to your trigger step, Octopus will look for the latest available package for all other steps **excluding pre-release packages by default** - see [this thread](https://help.octopus.com/t/arc-not-working-with-pre-release-builds/3646) for background.
+When you push a package to your trigger step, Octopus will look for the latest available package for all other steps **excluding pre-release packages by default** - see [this thread](https://help.yamldoc.liuyan.wang/t/arc-not-working-with-pre-release-builds/3646) for background.
 
 One way to work around this behavior is to create a Channel with the appropriate version rules so that "latest available package" will be the pre-release packages you expected. The best way to test this is to practice creating releases manually for that channel - the "latest available package" will work the same way for manual and automatically created releases.
 
@@ -114,4 +114,4 @@ We have [extensions/plugins](/docs/packaging-applications/build-servers/) availa
 
 ## Learn more
 
-Take a look at the [Octopus Guides](https://octopus.com/docs/guides) which covers building and packaging your application, creating releases and deploying to your environments for your CI/CD pipeline.
+Take a look at the [Octopus Guides](https://yamldoc.liuyan.wang/docs/guides) which covers building and packaging your application, creating releases and deploying to your environments for your CI/CD pipeline.

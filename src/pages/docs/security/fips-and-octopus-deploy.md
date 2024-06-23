@@ -33,4 +33,4 @@ Some of the features in Octopus Deploy depend on third-party libraries to work c
 
 ### Found something new? {#FIPSandOctopusDeploy-Foundsomethingnew?}
 
-Please contact our [support team](https://octopus.com/support) with details of the error and we will take every reasonable effort to fix the problem, or otherwise degrade the feature gracefully.
+Please contact our [support team](https://yamldoc.liuyan.wang/support) with details of the error and we will take every reasonable effort to fix the problem, or otherwise degrade the feature gracefully.

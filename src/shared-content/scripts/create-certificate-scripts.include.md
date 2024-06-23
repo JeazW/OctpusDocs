@@ -73,7 +73,7 @@ try
     $repositoryForSpace = $client.ForSpace($space)
     
     # Fill in certificate details
-    $pfxFilePath = "path\to\pfxfile.pfx" # note: other file formats are supported https://octopus.com/docs/deploying-applications/certificates/file-formats  
+    $pfxFilePath = "path\to\pfxfile.pfx" # note: other file formats are supported https://yamldoc.liuyan.wang/docs/deploying-applications/certificates/file-formats  
     $pfxBase64 = [Convert]::ToBase64String((Get-Content -Path $pfxFilePath -Encoding Byte)) 
     $pfxPassword = "PFX-file-password"
     $certificateName = "MyCertificate" # The display name in Octopus

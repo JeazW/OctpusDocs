@@ -302,4 +302,4 @@ The following JSON objects are real outputs from docker inspect commands to prov
 
 ## Learn more
 
- - [Docker blog posts](http://octopus.com/blog/tag/docker)
+ - [Docker blog posts](http://yamldoc.liuyan.wang/blog/tag/docker)

@@ -152,7 +152,7 @@ echo "Second Server Logs: " $(docker logs #{Octopus.Action[Second Server].Output
 **Advanced variable parsing and inspection**
 Note that to access the IP address of the two containers we are using the results of the inspect information that is extracted right after they are created. This also means that if your container configuration changes after they were created, the inspect information may be outdated. In addition since containers can be added to multiple networks, to get the IP address corresponding to the network we have created, we also need to index the network using an inner variable that resolves to the network name.
 
-To see the full results of the inspect command try echoing out the variable just up to the *Inspect* section (i.e. `#{Octopus.Action[First Server].Output.Docker.Inspect}` ). This will return a large JSON blob that the variable parser, [Octostache](https://github.com/OctopusDeploy/Octostache), is [now able to traverse.](https://octopus.com/blog/octostache-json-formatting)
+To see the full results of the inspect command try echoing out the variable just up to the *Inspect* section (i.e. `#{Octopus.Action[First Server].Output.Docker.Inspect}` ). This will return a large JSON blob that the variable parser, [Octostache](https://github.com/OctopusDeploy/Octostache), is [now able to traverse.](https://yamldoc.liuyan.wang/blog/octostache-json-formatting)
 :::
 
 :::figure
@@ -216,4 +216,4 @@ In the case of our simple scenario above, the final step should display the IP a
 
 ## Learn more
 
- - [Docker blog posts](http://octopus.com/blog/tag/docker)
+ - [Docker blog posts](http://yamldoc.liuyan.wang/blog/tag/docker)

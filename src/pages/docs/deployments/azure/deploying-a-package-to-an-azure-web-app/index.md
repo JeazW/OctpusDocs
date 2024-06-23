@@ -61,7 +61,7 @@ If instead you want to **dynamically** create you account during your deployment
 | **Remove additional files** | _False_     | When _True_ instructs Web Deploy to delete files from the destination that aren't in the source package                                                                                                                                                                                                                               |
 | **Preserve App_Data**       | _False_     | When _True_ instructs Web Deploy to skip Delete operations in the **App_Data** directory                                                                                                                                                                                                                                              |
 | **Enable AppOffline**       | _False_     | When _True_ instructs Web Deploy to place _app_offline.htm_ in root deployment directory to safely bring down the app domain.</br>Click [here](http://www.iis.net/learn/publish/deploying-application-packages/taking-an-application-offline-before-publishing) for more details.                                                     |
-| **File comparison method**  | _Timestamp_ | Can be _timestamp_ or _checksum_ and instructs web deploy to use the selected algorithm to determine which files to update.</br>_Note: There have been some issues with checksum in earlier versions of web deploy, and we've written about that in detail [here](https://octopus.com/blog/reliably-deploying-large-azure-web-apps)._ |
+| **File comparison method**  | _Timestamp_ | Can be _timestamp_ or _checksum_ and instructs web deploy to use the selected algorithm to determine which files to update.</br>_Note: There have been some issues with checksum in earlier versions of web deploy, and we've written about that in detail [here](https://yamldoc.liuyan.wang/blog/reliably-deploying-large-azure-web-apps)._ |
 
 :::div{.success}
 **Use variable binding expressions**
@@ -141,4 +141,4 @@ to the Azure portal with a value of `false`. If you have multiple slots, this se
 
 ## Learn more
 
-- Generate an Octopus guide for [Azure and the rest of your CI/CD pipeline](https://octopus.com/docs/guides?destination=Azure%20websites).
+- Generate an Octopus guide for [Azure and the rest of your CI/CD pipeline](https://yamldoc.liuyan.wang/docs/guides?destination=Azure%20websites).

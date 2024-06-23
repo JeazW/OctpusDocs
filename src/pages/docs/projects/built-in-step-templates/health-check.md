@@ -51,4 +51,4 @@ The number of concurrent health checks will be double the Octopus Server's logic
 
 Whilst the built-in Health check step works for deployment targets, it was not designed for [Workers](/docs/infrastructure/workers).
 
-To check the health of a worker in a deployment or runbook, there is a [Worker - Health check](https://library.octopus.com/step-templates/c6c23c7b-876d-4758-a908-511f066156d7/actiontemplate-worker-health-check) community step template.
+To check the health of a worker in a deployment or runbook, there is a [Worker - Health check](https://library.yamldoc.liuyan.wang/step-templates/c6c23c7b-876d-4758-a908-511f066156d7/actiontemplate-worker-health-check) community step template.

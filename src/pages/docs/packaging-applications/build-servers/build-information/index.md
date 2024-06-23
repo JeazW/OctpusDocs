@@ -30,14 +30,14 @@ The build information step is currently available in the official Octopus Deploy
 - [Jenkins](/docs/packaging-applications/build-servers/jenkins) 
 - [TFS/AzureDevOps](/docs/packaging-applications/build-servers/tfs-azure-devops)
 
-Check our [downloads page](https://octopus.com/downloads) for our latest build server plugins.
+Check our [downloads page](https://yamldoc.liuyan.wang/downloads) for our latest build server plugins.
 
 In addition to the official plugins, there are some community supported integrations available for:
 - [BitBucket Pipelines](https://bitbucket.org/octopusdeploy/octopus-cli-run/src/master)
 - [CircleCI](https://circleci.com/developer/orbs/orb/octopus-samples/octo-exp)
 - [Continua CI](/docs/packaging-applications/build-servers/continua-ci)
 
-Build information is independent of the packages that it relates to. You can pass build information to Octopus **before** the packages have been pushed to either the built-in repository or an external feed. You can also [push build information manually](https://octopus.com/blog/manually-push-build-information-to-octopus) using the Octopus REST API when you aren't utilizing a build server.
+Build information is independent of the packages that it relates to. You can pass build information to Octopus **before** the packages have been pushed to either the built-in repository or an external feed. You can also [push build information manually](https://yamldoc.liuyan.wang/blog/manually-push-build-information-to-octopus) using the Octopus REST API when you aren't utilizing a build server.
 
 :::div{.warning}
 Commit messages and deep links may not be shown if an unsupported `VcsType` is passed to Octopus as part of the build information call. Currently we support values of `Git` and `TFVC` (TFS / Azure DevOps). `SVN` (Subversion) is **not supported**.

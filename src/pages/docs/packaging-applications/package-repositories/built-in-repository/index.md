@@ -124,5 +124,5 @@ Note that packages uploaded via the [recommended methods](/docs/packaging-applic
 
 ## Learn more
 
-- Generate an Octopus guide for [the Octopus built-in repository and the rest of your CI/CD pipeline](https://octopus.com/docs/guides).
+- Generate an Octopus guide for [the Octopus built-in repository and the rest of your CI/CD pipeline](https://yamldoc.liuyan.wang/docs/guides).
 

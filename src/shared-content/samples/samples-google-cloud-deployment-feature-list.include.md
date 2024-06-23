@@ -4,7 +4,7 @@
     
 **Secrets Management**
 
-- <a href="https://samples.octopus.app/app#/Spaces-822/projects/Projects-1703/deployments/process" target="_blank">GCP Secret Manager</a>: <i>Sample project retrieving secrets from GCP Secrets Manager using the [Retrieve Secrets](https://library.octopus.com/step-templates/9f5a9e3c-76b1-462f-972a-ae91d5deaa05/actiontemplate-gcp-secret-manager-retrieve-secrets) step template.</i>
+- <a href="https://samples.octopus.app/app#/Spaces-822/projects/Projects-1703/deployments/process" target="_blank">GCP Secret Manager</a>: <i>Sample project retrieving secrets from GCP Secrets Manager using the [Retrieve Secrets](https://library.yamldoc.liuyan.wang/step-templates/9f5a9e3c-76b1-462f-972a-ae91d5deaa05/actiontemplate-gcp-secret-manager-retrieve-secrets) step template.</i>
     
 **Target - Containers**
 

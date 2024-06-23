@@ -13,4 +13,4 @@ robots: noindex, follow
 
 We couldn't find the page you tried to visit, sorry.
 
-You might like to go to [the docs home page](https://octopus.com/docs), try a [search](https://octopus.com/docs/search), or head to the [Octopus home page](https://octopus.com).
+You might like to go to [the docs home page](https://yamldoc.liuyan.wang/docs), try a [search](https://yamldoc.liuyan.wang/docs/search), or head to the [Octopus home page](https://yamldoc.liuyan.wang).

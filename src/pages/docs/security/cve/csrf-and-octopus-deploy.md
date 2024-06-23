@@ -70,7 +70,7 @@ If you use raw HTTP to access Octopus Deploy we recommend using an [API Key](/do
 
 ### Contact Octopus support {#support}
 
-If none of these troubleshooting steps work, please get in contact with our [support team](https://octopus.com/support) and send along the following details (feel free to ignore points if they don't apply):
+If none of these troubleshooting steps work, please get in contact with our [support team](https://yamldoc.liuyan.wang/support) and send along the following details (feel free to ignore points if they don't apply):
   a. Which browser and version are you using? (Help > About in your browser is the best place to get this information).
   b. Does the same thing happen with other browsers, like Internet Explorer, Google Chrome, Firefox?
   c. Does the same thing happen for other people/users?

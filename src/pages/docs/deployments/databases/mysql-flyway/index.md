@@ -7,7 +7,7 @@ description: How to do MySQL database deployments with Flyway.
 navOrder: 30
 ---
 
-[Flyway](https://flywaydb.org/) is a popular open source [migrations-based](https://octopus.com/blog/sql-server-deployment-options-for-octopus-deploy) database deployment tool supported by Redgate.  It's a command-line utility that uses Java to execute script files against several database technologies such as Microsoft SQL Server, MySQL, MariaDB, and PostgreSQL.  There is a free Community edition, and paid Pro and Enterprise versions available. This guide demonstrates how to use Flyway with a MySQL database.
+[Flyway](https://flywaydb.org/) is a popular open source [migrations-based](https://yamldoc.liuyan.wang/blog/sql-server-deployment-options-for-octopus-deploy) database deployment tool supported by Redgate.  It's a command-line utility that uses Java to execute script files against several database technologies such as Microsoft SQL Server, MySQL, MariaDB, and PostgreSQL.  There is a free Community edition, and paid Pro and Enterprise versions available. This guide demonstrates how to use Flyway with a MySQL database.
 
 ## Include Flyway with your project
 

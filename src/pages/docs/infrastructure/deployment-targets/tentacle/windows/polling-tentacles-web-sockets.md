@@ -50,7 +50,7 @@ If you get a connection refused or reset error, check the address and port and e
 
 If you get the other application that is listening on that port, ensure that your listen address has a [higher precedence](https://msdn.microsoft.com/en-us/library/windows/desktop/aa364698(v=vs.85).aspx) and that the server successfully bound to that address in the [server log file](/docs/support/log-files).
 
-If you encounter a certificate warning, ignore it and continue. This warning is due to the certificate not having a valid chain of trust back to a trusted certificate authority. Octopus [trusts certificates directly](https://octopus.com/blog/why-self-signed-certificates).
+If you encounter a certificate warning, ignore it and continue. This warning is due to the certificate not having a valid chain of trust back to a trusted certificate authority. Octopus [trusts certificates directly](https://yamldoc.liuyan.wang/blog/why-self-signed-certificates).
 
 ## Tentacle setup
 
@@ -84,7 +84,7 @@ poll-server --instance MyInstance --server "https://example.com/"  --server-web-
 
 ## Certificate
 Windows will need to be configured with a SSL certificate on the selected address and port. Usually this is done by the other application sharing the port.
-The certificate does _not_ need have a valid chain of trust to a certificate authority. Therefore [Self signed certificates](https://octopus.com/blog/why-self-signed-certificates) can be used. The certificate also does not need to match the hostname.
+The certificate does _not_ need have a valid chain of trust to a certificate authority. Therefore [Self signed certificates](https://yamldoc.liuyan.wang/blog/why-self-signed-certificates) can be used. The certificate also does not need to match the hostname.
 It does need to be installed into the Personal certificate store of the Machine account.
 
 The easiest way to get the SSL certificate set up is to configure [Octopus to use HTTPS](/docs/security/exposing-octopus/expose-the-octopus-web-portal-over-https) on that address and port.

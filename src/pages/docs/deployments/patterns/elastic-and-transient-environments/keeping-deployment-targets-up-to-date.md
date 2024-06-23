@@ -108,4 +108,4 @@ With machines now being kept up to date automatically you may be interested in [
 
 ## Learn more
 
-- [Deployment patterns blog posts](https://octopus.com/blog/tag/Deployment%20Patterns).
+- [Deployment patterns blog posts](https://yamldoc.liuyan.wang/blog/tag/Deployment%20Patterns).

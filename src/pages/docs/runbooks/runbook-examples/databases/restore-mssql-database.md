@@ -11,7 +11,7 @@ Restoring databases is a common practice in most organizations. Using a Runbook 
 
 ## Permissions
 
-In this example, you will restore a Microsoft SQL Server database using a step template from our [community library](/docs/projects/community-step-templates) called [SQL - Restore Database](https://library.octopus.com/step-templates/469b6d9d-761a-4f94-9745-20e9c2f93841/actiontemplate-sql-restore-database). This template supports both:
+In this example, you will restore a Microsoft SQL Server database using a step template from our [community library](/docs/projects/community-step-templates) called [SQL - Restore Database](https://library.yamldoc.liuyan.wang/step-templates/469b6d9d-761a-4f94-9745-20e9c2f93841/actiontemplate-sql-restore-database). This template supports both:
 - SQL authentication.
 - Integrated authentication. 
 
@@ -50,4 +50,4 @@ We have a [Target - Windows](https://oc.to/TargetWindowsSamplesSpace) Space on o
 
 ## Learn more
 
-- [SQL Backup - Community Step template](https://library.octopus.com/step-templates/34b4fa10-329f-4c50-ab7c-d6b047264b83/actiontemplate-sql-backup-database)
+- [SQL Backup - Community Step template](https://library.yamldoc.liuyan.wang/step-templates/34b4fa10-329f-4c50-ab7c-d6b047264b83/actiontemplate-sql-backup-database)

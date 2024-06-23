@@ -22,7 +22,7 @@ To learn more about supported formats, versioning, and packaging applications, r
 
 The following is a sample package that could be deployed with Octopus Deploy:
 
-> [hello-world.1.0.0.zip](https://octopus.com/images/docs/hello-world.1.0.0.zip)
+> [hello-world.1.0.0.zip](https://yamldoc.liuyan.wang/images/docs/hello-world.1.0.0.zip)
 
 You can manually upload that package to the Octopus built-in repository in the Octopus Web Portal.
 
@@ -62,4 +62,4 @@ For further reading on deploying packages in Octopus Deploy along with integrati
 - [Deployment Process Documentation](/docs/projects/deployment-process)
 - [Deployment Documentation](/docs/deployments)
 - [Patterns and Practices](/docs/deployments/patterns)
-- [Customizable End to End CI/CD Tutorials](https://octopus.com/docs/guides)
+- [Customizable End to End CI/CD Tutorials](https://yamldoc.liuyan.wang/docs/guides)

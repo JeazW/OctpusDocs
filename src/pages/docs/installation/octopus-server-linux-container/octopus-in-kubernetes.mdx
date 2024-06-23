@@ -477,7 +477,7 @@ spec:
           privileged: true
         env:
           - name: ACCEPT_EULA
-            # "Y" means accepting the EULA at https://octopus.com/company/legal
+            # "Y" means accepting the EULA at https://yamldoc.liuyan.wang/company/legal
             value: "Y"
           - name: OCTOPUS_SERVER_NODE_NAME
             valueFrom:
@@ -663,7 +663,7 @@ If you use Polling Tentacles, you don't need to export port `10943` on the `Load
 
 ### Accessing Server node logs \{#access-pod-server-logs}
 
-When running Octopus Server on Windows Server, to access the logs for an Octopus Server Node, you'd typically either log into the Server using Remote Desktop and access them locally, or you might [publish the logs to a centralized logging tool](https://help.octopus.com/t/how-can-i-configure-octopus-deploy-to-write-logs-to-a-centralized-logger-such-as-seq-splunk-or-papertrail/24551).
+When running Octopus Server on Windows Server, to access the logs for an Octopus Server Node, you'd typically either log into the Server using Remote Desktop and access them locally, or you might [publish the logs to a centralized logging tool](https://help.yamldoc.liuyan.wang/t/how-can-i-configure-octopus-deploy-to-write-logs-to-a-centralized-logger-such-as-seq-splunk-or-papertrail/24551).
 
 In Kubernetes there are a number of different options to access the Octopus Server Node logs.
 

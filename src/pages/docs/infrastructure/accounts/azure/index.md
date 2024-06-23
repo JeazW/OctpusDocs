@@ -23,7 +23,7 @@ You can read about the differences in [this document](https://azure.microsoft.co
 Azure Service Principal accounts are for use with the **Azure Resource Management (ARM) API** only. Configuring your Octopus Server to authenticate with the service principal you create in Azure Active Directory will let you configure finely grained authorization for your Octopus Server.
 
 :::div{.warning}
-Management Certificates are used to authenticate with Service Management APIs, those are being deprecated by Microsoft.  See our [blog post](https://octopus.com/blog/azure-management-certs) for more details.  Instructions remain only for legacy purposes.  Please migrate to service principals as soon as possible.
+Management Certificates are used to authenticate with Service Management APIs, those are being deprecated by Microsoft.  See our [blog post](https://yamldoc.liuyan.wang/blog/azure-management-certs) for more details.  Instructions remain only for legacy purposes.  Please migrate to service principals as soon as possible.
 :::
 
 ## Creating an Azure Service Principal account {#azure-service-principal}
@@ -391,7 +391,7 @@ A newly created Service Principal may take several minutes before the credential
 Azure Management Certificate Accounts work with the **Azure Service Management API** only, which is used when Octopus deploys [Cloud Services](/docs/deployments/azure/cloud-services/) and [Azure Web Apps](/docs/deployments/azure/deploying-a-package-to-an-azure-web-app).
 
 :::div{.warning}
-The Azure Service Management APIs are being deprecated by Microsoft.  See [this blog post](https://octopus.com/blog/azure-management-certs).  The instructions below only exist for legacy purposes.
+The Azure Service Management APIs are being deprecated by Microsoft.  See [this blog post](https://yamldoc.liuyan.wang/blog/azure-management-certs).  The instructions below only exist for legacy purposes.
 :::
 
 To create an Azure Management Certificate account as part of adding an [Azure subscription](#adding-azure-subscription), select Management Certificate as the Authentication Method.
@@ -705,8 +705,8 @@ if ($answer.ToLower() -ne "y")
 
 Import-AzurePowerShellModules
 
-$OctopusURL = Get-ParameterValue -originalParameterValue $OctopusURL -parameterName "the URL of your Octopus Deploy Instance, example: https://samples.octopus.com"
-$OctopusApiKey = Get-ParameterValue -originalParameterValue $OctopusApiKey -parameterName "the API Key of your Octopus Deploy User.  See https://octopus.com/docs/octopus-rest-api/how-to-create-an-api-key for a guide on how to create one"
+$OctopusURL = Get-ParameterValue -originalParameterValue $OctopusURL -parameterName "the URL of your Octopus Deploy Instance, example: https://samples.yamldoc.liuyan.wang"
+$OctopusApiKey = Get-ParameterValue -originalParameterValue $OctopusApiKey -parameterName "the API Key of your Octopus Deploy User.  See https://yamldoc.liuyan.wang/docs/octopus-rest-api/how-to-create-an-api-key for a guide on how to create one"
 $OctopusSpaceName = Get-ParameterValueWithDefault -originalParameterValue $OctopusSpaceName -parameterName "the name of the space in Octopus Deploy.  If left empty it will default to 'Default'" -defaultValue "Default"
 $OctopusAccountName = Get-ParameterValueWithDefault -originalParameterValue $OctopusAccountName -parameterName "the name of the account you wish to create in Octopus Deploy.  If left empty it will default to 'Bootstrap Azure Account'" -defaultValue "Bootstrap Azure Account"
 
@@ -764,7 +764,7 @@ $ExistingApplication | Format-Table
 if ($null -eq $ExistingApplication)
 {
     Write-OctopusVerbose "The Azure Active Directory Application does not exist, creating Azure Active Directory application"
-    $azureAdApplication = New-AzADApplication -DisplayName "$AzureServicePrincipalName" -HomePage "http://octopus.com" -IdentifierUris "http://octopus.com/$($AzureServicePrincipalName)" -Password $securePassword -EndDate $endDate
+    $azureAdApplication = New-AzADApplication -DisplayName "$AzureServicePrincipalName" -HomePage "http://yamldoc.liuyan.wang" -IdentifierUris "http://yamldoc.liuyan.wang/$($AzureServicePrincipalName)" -Password $securePassword -EndDate $endDate
     $azureAdApplication | Format-Table
 
     Write-OctopusVerbose "Creating Azure Active Directory service principal"

@@ -66,7 +66,7 @@ Self-contained Calamari is built as a [.NET Core self-contained distributable](h
 
 :::div{.warning}
  
-Mono is [being deprecated](https://octopus.com/blog/deprecating-mono) and may no longer be available in future versions of Octopus Server. We recommend upgrading your SSH Target to make use of [Self-contained Calamari](#self-contained-calamari)
+Mono is [being deprecated](https://yamldoc.liuyan.wang/blog/deprecating-mono) and may no longer be available in future versions of Octopus Server. We recommend upgrading your SSH Target to make use of [Self-contained Calamari](#self-contained-calamari)
 
 :::
 
@@ -117,4 +117,4 @@ export PATH=/Library/Frameworks/Mono.framework/Versions/Current/bin/:${PATH}
 ## Learn more
 
 - Configure your [SSH deployment targets](/docs/infrastructure/deployment-targets/linux/ssh-target)
-- [Linux blog posts](https://octopus.com/blog/tag/linux)
+- [Linux blog posts](https://yamldoc.liuyan.wang/blog/tag/linux)

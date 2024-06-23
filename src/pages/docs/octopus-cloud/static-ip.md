@@ -20,7 +20,7 @@ The built-in worker for your Octopus Cloud Server does not use an IP address fro
 
 The range of IP Addresses that your Octopus Cloud Server will use can be found within the technical section of the instance details page. 
 
-1. Log in to [Octopus.com](https://octopus.com).
+1. Log in to [Octopus.com](https://yamldoc.liuyan.wang).
 1. Click your profile in the upper right, followed by clicking **Control Center**.
 1. Click on Cloud Instances under the Products subheading from the control center menu.
 1. Click on the  Octopus Cloud instance you want to get the IP addresses for and click **Configuration**. 

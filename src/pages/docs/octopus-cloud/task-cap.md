@@ -35,7 +35,7 @@ The default task cap for Octopus Cloud instances is based on the license tier:
 Self-hosted customers have more control over their task cap.  As such, every self-hosted instance starts out with a task cap of 5.  A higher task cap requires more hosting resources.  Self-hosted customers can change their instance's task cap via the Octopus Deploy UI.  That is because self-hosted customers take on the responsibility of allocating resources, and paying any additional Azure, AWS, or GCP fees.  
 
 ## Increasing the Task Cap for Octopus Cloud
-Octopus Cloud customers must reach out to sales@octopus.com to increase the task cap.  
+Octopus Cloud customers must reach out to sales@yamldoc.liuyan.wang to increase the task cap.  
 
 Octopus Cloud provides the following Task Cap options:
 - Starter: 5
@@ -46,9 +46,9 @@ Increasing the task cap will incur a corresponding increase in platform fees.  D
 
 We assign resources to the instance based on the task cap.  Changing the task cap changes those resources.  That requires a small outage as the instance and database are reprovisioned.  We will wait until your next maintenance window to perform that reprovisioning.  You might not see a change in the task cap until the next day.
 
-**Please note:** If you need a task cap higher than 160 please reach out to sales@octopus.com to discuss your use case.  These options are meant to cover the majority of use cases.  
+**Please note:** If you need a task cap higher than 160 please reach out to sales@yamldoc.liuyan.wang to discuss your use case.  These options are meant to cover the majority of use cases.  
 
-**Important:** 5, 10, 20, 40, 80, and 160 are the only options we offer.  If you want an instance with a task cap above 160, again, reach out to sales@octopus.com.  There are no options between those tiers.  For example, no Octopus Cloud instance can have a task cap of 15, 34, 45, or 68.  
+**Important:** 5, 10, 20, 40, 80, and 160 are the only options we offer.  If you want an instance with a task cap above 160, again, reach out to sales@yamldoc.liuyan.wang.  There are no options between those tiers.  For example, no Octopus Cloud instance can have a task cap of 15, 34, 45, or 68.  
 
 ## How to choose a task cap
 We recommend the number of deployments required for a production deployment.  Deployments and runbook runs are the most common tasks.  Deployments typically take longer than runbook runs.  Production deployments are time constrained.  They are done off-hours during an outage window.

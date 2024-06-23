@@ -7,7 +7,7 @@ description: How to configure storage for a Kubernetes agent
 navOrder: 30
 ---
 
-During a deployment, Octopus Server first sends any required scripts and packages to [Tentacle](https://octopus.com/docs/infrastructure/deployment-targets/tentacle) which writes them to the file system. The actual script execution then takes place in a different process called [Calamari](https://github.com/OctopusDeploy/Calamari), which retrieves the scripts and packages directly from the file system. 
+During a deployment, Octopus Server first sends any required scripts and packages to [Tentacle](https://yamldoc.liuyan.wang/docs/infrastructure/deployment-targets/tentacle) which writes them to the file system. The actual script execution then takes place in a different process called [Calamari](https://github.com/OctopusDeploy/Calamari), which retrieves the scripts and packages directly from the file system. 
 
 On a Kubernetes agent, scripts are executed in separate Kubernetes pods (script pod) as opposed to in a local shell (Bash/Powershell). This means the Tentacle pod and script pods don’t automatically share a common file system.
 

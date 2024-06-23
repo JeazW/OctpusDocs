@@ -27,4 +27,4 @@ Following DevOps principles, everything that can be automated should be automate
 
 The deployment service account being used for database deployments should have ownership of the database.  Not ownership of the server, just the database.  
 
-That level of permission does open the door to concerns about giving the process too much power.  Please read this post: [how to add manual interventions and auto-approvals](https://octopus.com/blog/autoapprove-database-deployments) to your database deployment process.
+That level of permission does open the door to concerns about giving the process too much power.  Please read this post: [how to add manual interventions and auto-approvals](https://yamldoc.liuyan.wang/blog/autoapprove-database-deployments) to your database deployment process.

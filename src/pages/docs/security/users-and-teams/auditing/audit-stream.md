@@ -6,7 +6,7 @@ title: Audit Stream
 description: Octopus Deploy can stream audit logs to your chosen SIEM solution
 ---
 
-Audit streaming provides [enterprise-tier](https://octopus.com/pricing) customers with the ability to stream their audit events to their chosen security information and event management (SIEM) solution.
+Audit streaming provides [enterprise-tier](https://yamldoc.liuyan.wang/pricing) customers with the ability to stream their audit events to their chosen security information and event management (SIEM) solution.
 
 :::div{.hint}
 Audit streaming is only available from **Octopus 2022.4** onwards.

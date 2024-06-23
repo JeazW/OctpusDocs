@@ -23,8 +23,8 @@ Octopus Deploy will perform validation checks before upgrading the database.  Th
 - Verify the current license will work with the upgraded version.
 - Verify the current version of SQL Server is supported.
 
-If the validation checks fail, don't worry, install the [previously installed version of Octopus Deploy](https://octopus.com/downloads/previous), and you will be back up and running quickly.
+If the validation checks fail, don't worry, install the [previously installed version of Octopus Deploy](https://yamldoc.liuyan.wang/downloads/previous), and you will be back up and running quickly.
 
 ### Database upgrades
 
-Each release of Octopus Deploy contains 0 to N database scripts to upgrade the database.  The scripts are run in a transaction; when an error occurs, the transaction is rolled back.  If a rollback does happen, gather the logs and send them to our [support team](https://octopus.com/support) for troubleshooting.  You can install the previous version to get your CI/CD pipeline back up and running.
+Each release of Octopus Deploy contains 0 to N database scripts to upgrade the database.  The scripts are run in a transaction; when an error occurs, the transaction is rolled back.  If a rollback does happen, gather the logs and send them to our [support team](https://yamldoc.liuyan.wang/support) for troubleshooting.  You can install the previous version to get your CI/CD pipeline back up and running.

@@ -52,7 +52,7 @@ Many of those tasks have guard clauses. For example, we won't de-fragment a data
 It is important to note that most maintenance tasks do not start at the beginning of your maintenance window. We host thousands of customer instances. Because of that, we perform maintenance tasks in bulk. When we run a maintenance task, your instance might be the first, somewhere in the middle, or at the end of the list of instances. In some cases, by the time we finish processing other instances, your maintenance window is about to end. When that happens, your instance is skipped and that task won't be processed until the next day. That typically happens when performing upgrades. 
 
 :::div{.hint}
-Upgrading an instance is the primary cause of outages. The most noticeable impact of an outage is deployments and runbook runs will fail. We are actively working on [Resilient Scalable Deployments](https://roadmap.octopus.com/c/95-alpha-program-resilient-scalable-deployments-in-octopus-cloud) to allow the deployments and runbook runs to continue post-upgrade.  
+Upgrading an instance is the primary cause of outages. The most noticeable impact of an outage is deployments and runbook runs will fail. We are actively working on [Resilient Scalable Deployments](https://roadmap.yamldoc.liuyan.wang/c/95-alpha-program-resilient-scalable-deployments-in-octopus-cloud) to allow the deployments and runbook runs to continue post-upgrade.  
 :::
 
 ## Taking your instance offline

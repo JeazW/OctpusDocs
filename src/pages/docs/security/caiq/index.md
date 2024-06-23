@@ -9,7 +9,7 @@ navOrder: 101
 
 We use the Consensus Assessments Initiative Questionnaire Lite (CAIQ-Lite) from the [Cloud Security Alliance](https://cloudsecurityalliance.org/star/caiq-lite/) as a baseline mechanism to express our security posture in real terms and to provide security control transparency.
 
-We've made this publicly available to help customers assess our security posture for their own vendor management initiatives. Please reach out to our security people over at [security@octopus.com](mailto:security@octopus.com) if you have any queries.
+We've made this publicly available to help customers assess our security posture for their own vendor management initiatives. Please reach out to our security people over at [security@yamldoc.liuyan.wang](mailto:security@yamldoc.liuyan.wang) if you have any queries.
 
 ## Application & Interface Security
 
@@ -51,19 +51,19 @@ CAIQ ID: **AAC-02.1**
 
 > Do you allow tenants to view your SOC2/ISO 27001 or similar third-party audit or certification reports?
 
-Yes. We have SOC II and ISO 27001:2013 and we make as much detail about our audits public as is safe & reasonable. Our compliance certificates can be found in our [trust center](https://octopus.com/company/trust) and our penetration test results on our [security page](https://octopus.com/docs/security).
+Yes. We have SOC II and ISO 27001:2013 and we make as much detail about our audits public as is safe & reasonable. Our compliance certificates can be found in our [trust center](https://yamldoc.liuyan.wang/company/trust) and our penetration test results on our [security page](https://yamldoc.liuyan.wang/docs/security).
 
 CAIQ ID: **AAC-02.2**
 
 > Do you conduct network penetration tests of your cloud service infrastructure at least annually?
 
-Yes. We provide details of this on our [security page](https://octopus.com/docs/security).
+Yes. We provide details of this on our [security page](https://yamldoc.liuyan.wang/docs/security).
  
 CAIQ ID: **AAC-02.3**
  
 > Do you conduct application penetration tests of your cloud infrastructure regularly as prescribed by industry best practices and guidance?
  
-Yes. We provide details of this on our [security page](https://octopus.com/docs/security).
+Yes. We provide details of this on our [security page](https://yamldoc.liuyan.wang/docs/security).
  
 ### Information System Regulatory Mapping
 

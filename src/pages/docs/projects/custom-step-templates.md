@@ -90,7 +90,7 @@ If you want to transport, backup, or share your custom step templates with the c
 ![Export step templates](/docs/projects/images/step-templates-export.png)
 :::
 
-Now you can take that exported template document and commit it to source control, or share it on the [Community Library](https://library.octopus.com/).
+Now you can take that exported template document and commit it to source control, or share it on the [Community Library](https://library.yamldoc.liuyan.wang/).
 
 :::div{.success}
 Take a look at the [contributing guide](https://github.com/OctopusDeploy/Library/blob/master/.github/CONTRIBUTING.md) for the Community Library and submit your step template as a [pull request](https://github.com/OctopusDeploy/Library/pulls).
@@ -98,9 +98,9 @@ Take a look at the [contributing guide](https://github.com/OctopusDeploy/Library
 
 ## Linking custom step templates to community step templates
 
-Once a day Octopus retrieves the latest step templates from the [Community Library](https://library.octopus.com/). At the end of that process it also tries to link the community step templates to the any existing custom templates that have been imported manually in the past. Once the link is established the custom template can receive updates directly from the [Community Library](https://library.octopus.com/). If all the properties **except the version property** match the custom step template and the community step template will be linked.
+Once a day Octopus retrieves the latest step templates from the [Community Library](https://library.yamldoc.liuyan.wang/). At the end of that process it also tries to link the community step templates to the any existing custom templates that have been imported manually in the past. Once the link is established the custom template can receive updates directly from the [Community Library](https://library.yamldoc.liuyan.wang/). If all the properties **except the version property** match the custom step template and the community step template will be linked.
 
-If the linking process isn't linking a template that you believe should be linked then more than likely you don't have the very latest version of the template. The easiest way to fix this problem is to manually update the template with the data from the [Community Library](https://library.octopus.com/).
+If the linking process isn't linking a template that you believe should be linked then more than likely you don't have the very latest version of the template. The easiest way to fix this problem is to manually update the template with the data from the [Community Library](https://library.yamldoc.liuyan.wang/).
 
 ## Running script based custom step templates
 
@@ -142,4 +142,4 @@ Be careful when changing names! Octopus commonly uses names as a convenient iden
 
 ## Learn more
 
-- [Blog: Creating an Octopus Deploy step template](https://octopus.com/blog/creating-an-octopus-deploy-step-template)
+- [Blog: Creating an Octopus Deploy step template](https://yamldoc.liuyan.wang/blog/creating-an-octopus-deploy-step-template)

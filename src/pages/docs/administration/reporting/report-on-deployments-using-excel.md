@@ -163,4 +163,4 @@ There are two major limits to this approach to be aware of:
 
 ## Learn more
 
-- [Reporting blog posts](https://octopus.com/blog/tag/reporting).
+- [Reporting blog posts](https://yamldoc.liuyan.wang/blog/tag/reporting).

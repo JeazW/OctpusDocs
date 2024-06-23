@@ -416,7 +416,7 @@ View a working GitHub Actions examples on our [samples GitHub repository](https:
 GitHub Action Integrations v3 no longer requires the Octo CLI to function. This new native approach brings many benefits to the table, including but not limited too:
 - Smaller actions
 - Faster runtimes
-- Performance benefits through the [Executions API](https://octopus.com/blog/faster-deployments-with-the-executions-api)
+- Performance benefits through the [Executions API](https://yamldoc.liuyan.wang/blog/faster-deployments-with-the-executions-api)
 
 ### Migration Guides
 
@@ -548,7 +548,7 @@ steps:
 
 ### Install Octopus CLI Action v3
 
-Although the CLI is not required for GitHub Actions v3, the install Octopus CLI Action v3 will now install the new [Octopus CLI](https://octopus.com/docs/octopus-rest-api/cli).
+Although the CLI is not required for GitHub Actions v3, the install Octopus CLI Action v3 will now install the new [Octopus CLI](https://yamldoc.liuyan.wang/docs/octopus-rest-api/cli).
 
 :::div{.warning}
 If you require the use of the original Octo CLI, you can use `OctopusDeploy/install-octopus-cli-action@v1`.

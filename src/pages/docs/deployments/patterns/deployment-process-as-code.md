@@ -84,7 +84,7 @@ The process flow of using **project as code** looks similar to what you already 
 
 Octopus has a comprehensive HTTP API and .NET SDK you can use to automate **everything** in Octopus. If you can do something through the user interface, you can automate it with code. You can create and update projects, variables, deployment processes, and more. A downside of this approach is how much work is involved: you need to write code that detects drift and applies deltas, or is idempotent. Today, this is our only fully-supported solution to define your Octopus configuration as code.
 
-There is an [open source Terraform provider for Octopus](https://github.com/OctopusDeploy/terraform-provider-octopusdeploy), which is built on top of the Octopus HTTP API. The Terraform provider for Octopus detects drift and applies deltas. We are using this Terraform provider ourselves for [Octopus Cloud](https://octopus.com/cloud) (our SaaS product), and we are actively contributing to the provider. It doesn't cover 100% of all Octopus features yet, and the structure of the Terraform resources are subject to change. We will be building first-class support for this into the Octopus ecosystem in the future.
+There is an [open source Terraform provider for Octopus](https://github.com/OctopusDeploy/terraform-provider-octopusdeploy), which is built on top of the Octopus HTTP API. The Terraform provider for Octopus detects drift and applies deltas. We are using this Terraform provider ourselves for [Octopus Cloud](https://yamldoc.liuyan.wang/cloud) (our SaaS product), and we are actively contributing to the provider. It doesn't cover 100% of all Octopus features yet, and the structure of the Terraform resources are subject to change. We will be building first-class support for this into the Octopus ecosystem in the future.
 
 If you want to do **Octopus configuration as code** today, we recommend using our .NET SDK which will always be supported. The Terraform provider will be a simpler, more declarative approach, that we will support in the future.
 
@@ -140,9 +140,9 @@ The general process should look something like this, tailored to your situation:
     e. If something goes wrong, you can revert the single commit, isolating your changes back to your channel.
 
 :::div{.hint}
-If you have thoughts about how deployment as code could better support your organization, we would like to [talk with you about your dream scenario](https://octopus.com/support)!
+If you have thoughts about how deployment as code could better support your organization, we would like to [talk with you about your dream scenario](https://yamldoc.liuyan.wang/support)!
 :::
 
 ## Learn more
 
-- [Deployment patterns blog posts](https://octopus.com/blog/tag/Deployment%20Patterns).
+- [Deployment patterns blog posts](https://yamldoc.liuyan.wang/blog/tag/Deployment%20Patterns).

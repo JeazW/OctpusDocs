@@ -8,7 +8,7 @@ navOrder: 1
 navSearch: false
 ---
 
-You can upgrade from **Octopus 2.6.5** to **Octopus 2018.10 LTS** by downloading the latest [MSI's for both Octopus and Tentacle](https://octopus.com/download), and installing them manually. If you're working with a large number of Tentacles, see the section on [upgrading larger installations](/docs/administration/upgrading/legacy/upgrading-from-octopus-2.6.5-2018.10lts).
+You can upgrade from **Octopus 2.6.5** to **Octopus 2018.10 LTS** by downloading the latest [MSI's for both Octopus and Tentacle](https://yamldoc.liuyan.wang/download), and installing them manually. If you're working with a large number of Tentacles, see the section on [upgrading larger installations](/docs/administration/upgrading/legacy/upgrading-from-octopus-2.6.5-2018.10lts).
 
 ## Summary
 

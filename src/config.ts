@@ -1,7 +1,7 @@
 import type { Site } from 'astro-accelerator-utils/types/Site';
 
 export const SITE: Site = {
-  url: 'https://octopus.com',
+  url: 'https://yamldoc.liuyan.wang',
   useTrailingUrlSlash: false,
   captureStatistics: false,
   subfolder: '/docs',
@@ -96,8 +96,8 @@ export const HEADER_SCRIPTS = `
     f.parentNode.insertBefore(j, f);
   }
 
-  if (document.location.hostname === 'octopus.com'
-  	|| document.location.hostname === 'www.octopus.com') {
+  if (document.location.hostname === 'yamldoc.liuyan.wang'
+  	|| document.location.hostname === 'www.yamldoc.liuyan.wang') {
 	// Only add analytics to production site
     add_gtm(window, document, 'script', 'dataLayer', 'GTM-M6BF84M');
   }

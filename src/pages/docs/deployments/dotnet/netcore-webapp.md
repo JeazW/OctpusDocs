@@ -79,4 +79,4 @@ Refer to [structured configuration variables](/docs/projects/steps/configuration
 
 ## Learn more
 
-- Generate an Octopus guide for [ASP.NET Core and the rest of your CI/CD pipeline](https://octopus.com/docs/guides?application=ASP.NET%20Core).
+- Generate an Octopus guide for [ASP.NET Core and the rest of your CI/CD pipeline](https://yamldoc.liuyan.wang/docs/guides?application=ASP.NET%20Core).

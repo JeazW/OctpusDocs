@@ -11,7 +11,7 @@ navOrder: 1
 ![Shattered logo](/docs/security/cve/shattered-logo.png)
 :::
 
-_Extracted from our [blog post in 2017](https://octopus.com/blog/shattered)._
+_Extracted from our [blog post in 2017](https://yamldoc.liuyan.wang/blog/shattered)._
 
 In 2017 [Google announced](https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html) an attack that makes it [practically possible to generate SHA1 hash collisions](http://shattered.io/).
 

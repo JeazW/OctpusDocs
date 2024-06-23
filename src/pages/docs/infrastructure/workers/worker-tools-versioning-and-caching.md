@@ -7,7 +7,7 @@ description: How Octopus creates, versions, caches, and releases the worker-tool
 navOrder: 50
 ---
 
-Worker Tools are a set of docker images used as [execution containers for workers](https://octopus.com/docs/projects/steps/execution-containers-for-workers) to run deployment processes. Worker Tools include a wide range of software tools to support most deployment scenarios out of the box. This page focuses on how we create these Worker Tool images, version, cache on workers, and release them.
+Worker Tools are a set of docker images used as [execution containers for workers](https://yamldoc.liuyan.wang/docs/projects/steps/execution-containers-for-workers) to run deployment processes. Worker Tools include a wide range of software tools to support most deployment scenarios out of the box. This page focuses on how we create these Worker Tool images, version, cache on workers, and release them.
 
 ## Versioning Worker Tools
 Worker Tool images follow a semantic versioning (SemVer) approach of `Major.Minor.Patch-Distro` for their tag format. When we release a new version of Worker Tools to the [Worker Tools Docker Hub repository](https://hub.docker.com/r/octopusdeploy/worker-tools/tags), we also add the following image tags, distribution (`ubuntu.22.04` or `windows.ltsc2022`), `Major-Distro` (e.g. `3-Distro`) and `Major.Minor-Distro` (`3.3-Distro`). We recommend using the fully qualified SemVer as patch updates of Worker Tools could result in an updated tool dependency introducing a breaking change.
@@ -60,5 +60,5 @@ Using non-cached versions of these worker-tools can result in long downloads.
 
 ## Learn more
 
-- [Worker blog posts](https://octopus.com/blog/tag/workers)
+- [Worker blog posts](https://yamldoc.liuyan.wang/blog/tag/workers)
 - [Custom docker images](/docs/projects/steps/execution-containers-for-workers/#custom-docker-images)

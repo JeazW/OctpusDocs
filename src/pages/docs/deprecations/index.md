@@ -18,7 +18,7 @@ Deprecations have the following lifecycle:
 - (+1 year) Remove deprecated functionality
 
 :::div{.warning}
-Deprecations are subject to change in detail or time frame. If you need help assessing the impact of the deprecation of a feature on your particular Octopus Server configuration, please contact our [support team](https://octopus.com/support).
+Deprecations are subject to change in detail or time frame. If you need help assessing the impact of the deprecation of a feature on your particular Octopus Server configuration, please contact our [support team](https://yamldoc.liuyan.wang/support).
 :::
 
 ## Planned Deprecations
@@ -26,11 +26,11 @@ Deprecations are subject to change in detail or time frame. If you need help ass
 ### Dropping capability for Windows Server 2008 Workers and Targets in 2025.1
 Microsoft [dropped extended support](https://learn.microsoft.com/en-us/lifecycle/products/windows-server-2008) for the Windows Server 2008 family in January 2020. This operating system is also the last Windows OS that does not support .NET Core, one of the languages used to build Octopus Deploy. The complexity required to support this legacy platform outweighs the value to our customers.
 
-It has been [noted for several years](https://octopus.com/docs/infrastructure/deployment-targets/tentacle/windows/requirements) that Octopus no longer actively tests against or supports Windows Server 2008. The planned change in `2025.1` will make this operating system requirement more definitive by introducing changes that may prevent standard deployment and runbook tasks from executing on this operating system.
+It has been [noted for several years](https://yamldoc.liuyan.wang/docs/infrastructure/deployment-targets/tentacle/windows/requirements) that Octopus no longer actively tests against or supports Windows Server 2008. The planned change in `2025.1` will make this operating system requirement more definitive by introducing changes that may prevent standard deployment and runbook tasks from executing on this operating system.
 
 To provide ample time to act, from Octopus Server `2024.1`, workloads that run on Windows 2008 Servers will begin logging warnings. We urge you to upgrade your targets to a later version of Windows Server before `2025.1` to prepare for the removal of functionality.
 
-Further notes about this pending change can be found in the [2024.1 deprecation blog post](https://octopus.com/blog/2024-deprecated-features#windows-server-2008)
+Further notes about this pending change can be found in the [2024.1 deprecation blog post](https://yamldoc.liuyan.wang/blog/2024-deprecated-features#windows-server-2008)
 
 ## Deprecations for 2024.3
 
@@ -73,7 +73,7 @@ The recommended migration path outlined by Azure is to make use of the separate 
 
 From `2024.1` SSH deployments will no longer support running tasks via Mono. Instead, Linux workers and targets will only execute using .NET Core compiled tooling, which, in most cases, can be enabled via a simple change on the machine configuration page.
 
-Further details on the background of this update and the reasoning behind it are available in the [Deprecating Mono](https://octopus.com/blog/deprecating-mono) blog post.
+Further details on the background of this update and the reasoning behind it are available in the [Deprecating Mono](https://yamldoc.liuyan.wang/blog/deprecating-mono) blog post.
 
 ### Dropped support for Windows Server 2003 and un-patched Windows Server 2008 Workers and Targets
 
@@ -81,11 +81,11 @@ Windows Server 2003 Workers and Targets will no longer execute Octopus workloads
 
 Windows Server 2008 Workers and Targets that do not have the latest Service Packs installed will also no longer execute Octopus workloads from `2024.1` due to the dependency on .NET Framework 4.6.2, which is unavailable on these Operating Systems. We strongly recommend that you upgrade your targets to a later version of Windows Server before updating your Octopus Server instance to this release, as deployments and runbooks using these machines are unlikely to run.
 
-Further details on the background for this update are available on the [Dropping support for Windows Server 2003 machines](https://octopus.com/blog/deprecating-win2003) blog post.
+Further details on the background for this update are available on the [Dropping support for Windows Server 2003 machines](https://yamldoc.liuyan.wang/blog/deprecating-win2003) blog post.
 
 ### F# Script Steps
 
-Due to the low uptake of F# script steps and the work required to upgrade them for continued use in our modern codebase, we will no longer support F# script steps from `2024.1`. Customers who continue to need F# scripts in later Octopus versions should use standard shell scripting (powershell or bash) and invoke their scripts via their own F# tools included in additional [referenced packages](https://octopus.com/docs/deployments/custom-scripts/run-a-script-step#referencing-packages).
+Due to the low uptake of F# script steps and the work required to upgrade them for continued use in our modern codebase, we will no longer support F# script steps from `2024.1`. Customers who continue to need F# scripts in later Octopus versions should use standard shell scripting (powershell or bash) and invoke their scripts via their own F# tools included in additional [referenced packages](https://yamldoc.liuyan.wang/docs/deployments/custom-scripts/run-a-script-step#referencing-packages).
 
 ## Deprecations for 2023.3
 
@@ -98,7 +98,7 @@ The same functionality is available via the `GET /runbooks/all` API endpoint, pa
 
 The `GET /reporting/deployments-counted-by-week` API endpoint is being removed in future versions of Octopus. None of our supported clients currently use this endpoint.
 
-While there is no direct replacement for this endpoint, much more detailed reporting is available via the [Insights feature](https://octopus.com/docs/insights).
+While there is no direct replacement for this endpoint, much more detailed reporting is available via the [Insights feature](https://yamldoc.liuyan.wang/docs/insights).
 
 ### Project level `/git/branches` API endpoint
 
@@ -112,14 +112,14 @@ To use the new endpoint, replace the `CurrentBranchName` field with `BaseGitRef`
 
 The Space level `/useronboarding` API endpoint will be removed in a future version of Octopus. We used this endpoint to improve the user onboarding experience but have reworked the new user experience and removed the old endpoint.
 
-There is no replacement for this endpoint. We do not expect that anyone outside our internal teams has used this endpoint. If you believe this could negatively affect you, please contact our [support team](https://octopus.com/support).
+There is no replacement for this endpoint. We do not expect that anyone outside our internal teams has used this endpoint. If you believe this could negatively affect you, please contact our [support team](https://yamldoc.liuyan.wang/support).
 
 ### Unsupported Microsoft DFS configurations
 
-We are updating the supported configurations of Microsoft DFS as shared storage for Octopus Server instances using a High Availability setup. We will continue to support DFS for disaster recovery scenarios, but only in the recommended configuration. You can find more details in our [documentation](https://octopus.com/docs/getting-started/best-practices/configuring-microsoft-dfs-with-octopus-server).
+We are updating the supported configurations of Microsoft DFS as shared storage for Octopus Server instances using a High Availability setup. We will continue to support DFS for disaster recovery scenarios, but only in the recommended configuration. You can find more details in our [documentation](https://yamldoc.liuyan.wang/docs/getting-started/best-practices/configuring-microsoft-dfs-with-octopus-server).
 
 ## Deprecations for 2022.4
 
 ### Server extensibility
 
-Server extensibility is deprecated and no longer maintained. It will no longer work at the end of 2023. Some of you may have implemented an extension for Octopus Server, however, we would be interested in understanding your requirements better to work towards resolving missing capabilities. Contact us via [support team](https://octopus.com/support) to let us know if this will affect your instance.
+Server extensibility is deprecated and no longer maintained. It will no longer work at the end of 2023. Some of you may have implemented an extension for Octopus Server, however, we would be interested in understanding your requirements better to work towards resolving missing capabilities. Contact us via [support team](https://yamldoc.liuyan.wang/support) to let us know if this will affect your instance.

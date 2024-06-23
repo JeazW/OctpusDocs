@@ -20,4 +20,4 @@ With Octopus Deploy and Node you can:
 
 ## Learn more
 
-- Generate an Octopus guide for [Node and the rest of your CI/CD pipeline](https://octopus.com/docs/guides?application=Node.js).
+- Generate an Octopus guide for [Node and the rest of your CI/CD pipeline](https://yamldoc.liuyan.wang/docs/guides?application=Node.js).

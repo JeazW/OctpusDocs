@@ -128,4 +128,4 @@ screen -d -m -S "MyService" MyService
 
 ### Scripts that restart the target operating system
 
-Restarting the target operating system is not currently supported as part of running a script via Octopus. You can restart the operating system from your script, but this will cause the process to fail because it cannot survive a restart. Please reach out to our [support team](https://octopus.com/support) if this is a requirement in your situation.
+Restarting the target operating system is not currently supported as part of running a script via Octopus. You can restart the operating system from your script, but this will cause the process to fail because it cannot survive a restart. Please reach out to our [support team](https://yamldoc.liuyan.wang/support) if this is a requirement in your situation.

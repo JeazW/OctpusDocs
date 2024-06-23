@@ -225,7 +225,7 @@ These filters extract a part of value.
 
 | Name                                          | Purpose                                                              | Example input                  | Example output |
 |-----------------------------------------------|----------------------------------------------------------------------|--------------------------------|----------------|
-| [`UriPart`](#uripart)                         | Extracts a specified part of a URI string                            | `https://octopus.com/docs`     | `/docs`        |
+| [`UriPart`](#uripart)                         | Extracts a specified part of a URI string                            | `https://yamldoc.liuyan.wang/docs`     | `/docs`        |
 | `VersionMajor` <br/>***2020.5.0**             | Extracts the major version field from a version string               | `1.2.3.4-my-branch.1.2+build10` | `1`            |
 | `VersionMinor` <br/>***2020.5.0**             | Extracts the minor version field from a version string               | `1.2.3.4-my-branch.1.2+build10` | `2`            |
 | `VersionPatch` <br/>***2020.5.0**             | Extracts the patch version field from a version string               | `1.2.3.4-my-branch.1.2+build10` | `3`            |
@@ -241,26 +241,26 @@ The *UriPart* filter parses the input as a URI and extracts a specified part of 
 
 | MyVar Value                             | Filter Expression                     | Output                     |
 | --------------------------------------- | ------------------------------------- | -------------------------- |
-| `https://octopus.com/docs`              | `#{MyVar \| UriPart AbsolutePath}`    | `/docs`                    |
-| `https://octopus.com/docs`              | `#{MyVar \| UriPart AbsoluteUri}`     | `https://octopus.com/docs` |
-| `https://octopus.com/docs`              | `#{MyVar \| UriPart Authority}`       | `octopus.com`              |
-| `https://octopus.com/docs`              | `#{MyVar \| UriPart DnsSafeHost}`     | `octopus.com`              |
-| `https://octopus.com/docs#filters`      | `#{MyVar \| UriPart Fragment}`        | `#filters`                 |
-| `https://octopus.com/docs`              | `#{MyVar \| UriPart Host}`            | `octopus.com`              |
-| `https://octopus.com/docs`              | `#{MyVar \| UriPart HostAndPort}`     | `octopus.com:443`          |
-| `https://octopus.com/docs`              | `#{MyVar \| UriPart HostNameType}`    | `Dns`                      |
-| `https://octopus.com/docs`              | `#{MyVar \| UriPart IsAbsoluteUri}`   | `true`                     |
-| `https://octopus.com/docs`              | `#{MyVar \| UriPart IsDefaultPort}`   | `true`                     |
-| `https://octopus.com/docs`              | `#{MyVar \| UriPart IsFile}`          | `false`                    |
-| `https://octopus.com/docs`              | `#{MyVar \| UriPart IsLoopback}`      | `false`                    |
-| `https://octopus.com/docs`              | `#{MyVar \| UriPart IsUnc}`           | `false`                    |
-| `https://octopus.com/docs`              | `#{MyVar \| UriPart Path}`            | `/docs`                    |
-| `https://octopus.com/docs?filter=faq`   | `#{MyVar \| UriPart PathAndQuery}`    | `/docs?filter=faq`         |
-| `https://octopus.com/docs`              | `#{MyVar \| UriPart Port}`            | `443`                      |
-| `https://octopus.com/docs?filter=faq`   | `#{MyVar \| UriPart Query}`           | `?filter=faq`              |
-| `https://octopus.com/docs`              | `#{MyVar \| UriPart Scheme}`          | `https`                    |
-| `https://octopus.com/docs`              | `#{MyVar \| UriPart SchemeAndServer}` | `https://octopus.com`      |
-| `https://username:password@octopus.com` | `#{MyVar \| UriPart UserInfo}`        | `username:password`        |
+| `https://yamldoc.liuyan.wang/docs`              | `#{MyVar \| UriPart AbsolutePath}`    | `/docs`                    |
+| `https://yamldoc.liuyan.wang/docs`              | `#{MyVar \| UriPart AbsoluteUri}`     | `https://yamldoc.liuyan.wang/docs` |
+| `https://yamldoc.liuyan.wang/docs`              | `#{MyVar \| UriPart Authority}`       | `yamldoc.liuyan.wang`              |
+| `https://yamldoc.liuyan.wang/docs`              | `#{MyVar \| UriPart DnsSafeHost}`     | `yamldoc.liuyan.wang`              |
+| `https://yamldoc.liuyan.wang/docs#filters`      | `#{MyVar \| UriPart Fragment}`        | `#filters`                 |
+| `https://yamldoc.liuyan.wang/docs`              | `#{MyVar \| UriPart Host}`            | `yamldoc.liuyan.wang`              |
+| `https://yamldoc.liuyan.wang/docs`              | `#{MyVar \| UriPart HostAndPort}`     | `yamldoc.liuyan.wang:443`          |
+| `https://yamldoc.liuyan.wang/docs`              | `#{MyVar \| UriPart HostNameType}`    | `Dns`                      |
+| `https://yamldoc.liuyan.wang/docs`              | `#{MyVar \| UriPart IsAbsoluteUri}`   | `true`                     |
+| `https://yamldoc.liuyan.wang/docs`              | `#{MyVar \| UriPart IsDefaultPort}`   | `true`                     |
+| `https://yamldoc.liuyan.wang/docs`              | `#{MyVar \| UriPart IsFile}`          | `false`                    |
+| `https://yamldoc.liuyan.wang/docs`              | `#{MyVar \| UriPart IsLoopback}`      | `false`                    |
+| `https://yamldoc.liuyan.wang/docs`              | `#{MyVar \| UriPart IsUnc}`           | `false`                    |
+| `https://yamldoc.liuyan.wang/docs`              | `#{MyVar \| UriPart Path}`            | `/docs`                    |
+| `https://yamldoc.liuyan.wang/docs?filter=faq`   | `#{MyVar \| UriPart PathAndQuery}`    | `/docs?filter=faq`         |
+| `https://yamldoc.liuyan.wang/docs`              | `#{MyVar \| UriPart Port}`            | `443`                      |
+| `https://yamldoc.liuyan.wang/docs?filter=faq`   | `#{MyVar \| UriPart Query}`           | `?filter=faq`              |
+| `https://yamldoc.liuyan.wang/docs`              | `#{MyVar \| UriPart Scheme}`          | `https`                    |
+| `https://yamldoc.liuyan.wang/docs`              | `#{MyVar \| UriPart SchemeAndServer}` | `https://yamldoc.liuyan.wang`      |
+| `https://username:password@yamldoc.liuyan.wang` | `#{MyVar \| UriPart UserInfo}`        | `username:password`        |
 
 ## Differences from regular variable bindings {#differences-from-regular-bindings}
 
@@ -344,4 +344,4 @@ Dog: 17.5
 
 ## Learn more
 
-- [Variable blog posts](https://octopus.com/blog/tag/variables)
+- [Variable blog posts](https://yamldoc.liuyan.wang/blog/tag/variables)

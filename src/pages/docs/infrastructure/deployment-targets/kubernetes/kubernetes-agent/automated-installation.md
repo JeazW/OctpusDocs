@@ -24,7 +24,7 @@ To ensure that the Kubernetes agent and the deployment target within Octopus ass
 terraform {
   required_providers {
     octopusdeploy = {
-      source  = "octopus.com/com/octopusdeploy"
+      source  = "yamldoc.liuyan.wang/com/octopusdeploy"
       version = "0.20.0"
     }
 

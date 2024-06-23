@@ -105,7 +105,7 @@ Consider an example deploying a release to the tenants tagged with the **Alpha**
 
 ```powershell
 # Deploys My Project 1.0.1 to all tenants tagged as in the Alpha ring
-./octo deploy-release --server=http://octopus.company.com --apiKey=API-1234567890123456 --project="My Project" --version="1.0.1" --tenantTag="Release ring/Alpha"
+./octo deploy-release --server=http://yamldoc.liuyan.wangpany.com --apiKey=API-1234567890123456 --project="My Project" --version="1.0.1" --tenantTag="Release ring/Alpha"
 ```
 
 Some places you can use tags are:
@@ -153,4 +153,4 @@ You can also use the project overview to deploy to groups of tenants by grouping
 
 ## Learn more {#learn-more}
 
-- [Deployment patterns blog posts](https://octopus.com/blog/tag/Deployment%20Patterns)
+- [Deployment patterns blog posts](https://yamldoc.liuyan.wang/blog/tag/Deployment%20Patterns)

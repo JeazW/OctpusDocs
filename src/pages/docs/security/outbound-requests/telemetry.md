@@ -19,4 +19,4 @@ When the **Telemetry Reporting** option is enabled, Octopus will make a secure H
 
 Please do consider enabling **Telemetry Reporting**. We look at the data every week, and it really does help us to make a better product.
 
-Be assured that names, descriptions, URI's, and so on are _never_ included. You can download a preview of the data that will be sent by clicking on the **Download Preview** button on the **Configuration ➜ Telemetry** page. You can also learn more about Octopus and data privacy in our [GDPR page](https://octopus.com/legal/gdpr).
+Be assured that names, descriptions, URI's, and so on are _never_ included. You can download a preview of the data that will be sent by clicking on the **Download Preview** button on the **Configuration ➜ Telemetry** page. You can also learn more about Octopus and data privacy in our [GDPR page](https://yamldoc.liuyan.wang/legal/gdpr).

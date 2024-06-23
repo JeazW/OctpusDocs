@@ -11,7 +11,7 @@ Space level insights provide actionable DORA metrics for more complex scenarios 
 
 :::div{.info}
 
-Space level insights requires an [enterprise subscription](https://octopus.com/pricing).
+Space level insights requires an [enterprise subscription](https://yamldoc.liuyan.wang/pricing).
 :::
 
 To get started with space level insights, choose the **Insights** item from the navigation menu. From there you can create one or more reports.
@@ -104,4 +104,4 @@ By default, built-in roles also include these permissions:
 | InsightsReportDelete | Project initiator |
 | InsightsReportCreate | Project initiator |
 
-For more information on how to do this, please see [creating user roles](https://octopus.com/docs/security/users-and-teams/user-roles#UserRoles-CreatingUserRoles).
+For more information on how to do this, please see [creating user roles](https://yamldoc.liuyan.wang/docs/security/users-and-teams/user-roles#UserRoles-CreatingUserRoles).

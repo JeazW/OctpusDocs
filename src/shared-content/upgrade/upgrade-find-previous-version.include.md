@@ -8,7 +8,7 @@ SELECT TOP 5 [Version]
   ORDER BY Installed desc
 ```
 
-When you know the version to install, go to the [previous downloads page](https://octopus.com/downloads/previous).  
+When you know the version to install, go to the [previous downloads page](https://yamldoc.liuyan.wang/downloads/previous).  
 
 ### Installing the previous version
 

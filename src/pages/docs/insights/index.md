@@ -20,7 +20,7 @@ DevOps insights in Octopus gives you better visibility into your company's DevOp
 Two levels are available for DevOps Insights:
 
 1. Project level insights, available to all customers.
-2. Space level insights, available to customers with an [enterprise subscription](https://octopus.com/pricing).
+2. Space level insights, available to customers with an [enterprise subscription](https://yamldoc.liuyan.wang/pricing).
 
 ## What are DORA metrics?
 
@@ -88,7 +88,7 @@ Project level insights are available to all customers out-of-the-box, meaning yo
 
 ## Gain insight across projects and teams with the Space level insights
 
-Octopus **2022.3** also includes additional insights capabilities for customers with an [enterprise subscription](https://octopus.com/pricing). For customers at larger companies, we have built additional capabilities that make it easier to gain insight using DORA metrics in larger multi-team, multi-site and multi-project scenarios.
+Octopus **2022.3** also includes additional insights capabilities for customers with an [enterprise subscription](https://yamldoc.liuyan.wang/pricing). For customers at larger companies, we have built additional capabilities that make it easier to gain insight using DORA metrics in larger multi-team, multi-site and multi-project scenarios.
 
 Space level insights are available via the Insights tab and provide actionable DORA metrics for more complex scenarios across projects, project groups, environments, or tenants. This enables managers and decision-makers to get far more insight into the DevOps performance of their organization in line with their business context, such as team, portfolio, or platform. Space level insights:
 
@@ -104,4 +104,4 @@ This also allows you to easily identify contributors to a performance trend you 
 Users who have view permissions to Space-level Insights reports will see sanitized data on projects / environments they don't have access to.
 :::
 
-Space level DevOps insights are available to customers with an [enterprise subscription](https://octopus.com/pricing).
+Space level DevOps insights are available to customers with an [enterprise subscription](https://yamldoc.liuyan.wang/pricing).

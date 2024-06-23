@@ -79,5 +79,5 @@ When there are no matching ingress rules, traffic can be sent to the service con
 
 ## Learn more
 
-- Generate an Octopus guide for [Kubernetes and the rest of your CI/CD pipeline](https://octopus.com/docs/guides?destination=Kubernetes)
-- [Kubernetes blog posts](https://octopus.com/blog/tag/kubernetes)
+- Generate an Octopus guide for [Kubernetes and the rest of your CI/CD pipeline](https://yamldoc.liuyan.wang/docs/guides?destination=Kubernetes)
+- [Kubernetes blog posts](https://yamldoc.liuyan.wang/blog/tag/kubernetes)

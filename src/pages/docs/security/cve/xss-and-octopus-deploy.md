@@ -24,7 +24,7 @@ The responsibility for protecting against XSS attacks is shared between us as th
 
 ### What is Octopus Deploy responsible for?
 
-We take responsibility to provide commercially reasonable protection against XSS attacks. If you [find and report](https://octopus.com/security/disclosure) a specific XSS vulnerability, we will follow our practice of [responsible disclosure](https://octopus.com/security/disclosure).
+We take responsibility to provide commercially reasonable protection against XSS attacks. If you [find and report](https://yamldoc.liuyan.wang/security/disclosure) a specific XSS vulnerability, we will follow our practice of [responsible disclosure](https://yamldoc.liuyan.wang/security/disclosure).
 
 ### What is the customer responsible for?
 

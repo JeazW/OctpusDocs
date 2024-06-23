@@ -36,4 +36,4 @@ We recommend rolling forward or making your database changes backward compatible
 
 ## Learn more
 
-- [Database blog posts](https://octopus.com/blog/tag/database%20deployments)
+- [Database blog posts](https://yamldoc.liuyan.wang/blog/tag/database%20deployments)

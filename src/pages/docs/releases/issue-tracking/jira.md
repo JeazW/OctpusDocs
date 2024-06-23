@@ -161,7 +161,7 @@ The **Connect App** `Test` button (found under `Jira Connect App Password`) chec
 ![Connect App Test button](/docs/releases/issue-tracking/images/jiraconnectapp_testbutton.png)
 
 :::div{.hint}
-For this connectivity test to succeed the Octopus Server must be able to connect to both your Jira Cloud instance's URL, and to [https://jiraconnectapp.octopus.com](https://jiraconnectapp.octopus.com), which hosts our Jira plugin.
+For this connectivity test to succeed the Octopus Server must be able to connect to both your Jira Cloud instance's URL, and to [https://jiraconnectapp.yamldoc.liuyan.wang](https://jiraconnectapp.yamldoc.liuyan.wang), which hosts our Jira plugin.
 :::
 
 The **Release Notes** `Test` button (found under `Jira Password`) checks the connectivity to your Jira Cloud/Server instance for retrieving work item information.
@@ -192,13 +192,13 @@ The following illustrates Octopus attempting to send an _in_progress_, and then 
 
 ## Troubleshooting {#troubleshooting}
 
-If you're running into issues with the Jira Integration, it's possible it could be one of the common problems we get asked about here. If it's still not working quite right, [we are here to help!](https://octopus.com/support)
+If you're running into issues with the Jira Integration, it's possible it could be one of the common problems we get asked about here. If it's still not working quite right, [we are here to help!](https://yamldoc.liuyan.wang/support)
 
 ### Issues after upgrading the Jira Plugin {#troubleshooting-jira-plugin-upgrades}
 
 :::div{.warning}
 **Change of functionality resulting in Data Loss**
-Please note: The reinstallation of the plugin has worked in the past to restore functionality of the integration. From April 2022 performing the below step will remove all Historical Deployment Information from Jira Cloud. We are waiting on information from Atlassian to confirm if this is a permanent or temporary feature. Please contact support@octopus.com for the latest information regarding this issue.
+Please note: The reinstallation of the plugin has worked in the past to restore functionality of the integration. From April 2022 performing the below step will remove all Historical Deployment Information from Jira Cloud. We are waiting on information from Atlassian to confirm if this is a permanent or temporary feature. Please contact support@yamldoc.liuyan.wang for the latest information regarding this issue.
 :::
 
 If you find a previously working Jira integration has stopped working after upgrading the Jira plugin, then you may need to uninstall and reinstall the Jira plugin from the Atlassian marketplace. During configuration of the reinstalled Jira plugin, you will be provided with a new Jira Connect Password which will need to be entered into the Jira Settings page on your Octopus Server.  
@@ -225,4 +225,4 @@ If you find your work items or other build information aren't showing up in your
 
  ## Learn more
 
- - [Jira blog posts](https://octopus.com/blog/tag/jira)
+ - [Jira blog posts](https://yamldoc.liuyan.wang/blog/tag/jira)

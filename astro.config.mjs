@@ -6,7 +6,7 @@ import { attributeMarkdown, wrapTables } from '/src/themes/octopus/utilities/cus
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://octopus.com',
+    site: 'https://yamldoc.liuyan.wang',
     integrations: [
         mdx()
     ],

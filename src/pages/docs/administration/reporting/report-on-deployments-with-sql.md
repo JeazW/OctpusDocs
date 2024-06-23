@@ -49,4 +49,4 @@ You may want to look at [enabling HTTP logging](/docs/administration/managing-in
 
 ## Learn more
 
-- [Reporting blog posts](https://octopus.com/blog/tag/reporting).
+- [Reporting blog posts](https://yamldoc.liuyan.wang/blog/tag/reporting).

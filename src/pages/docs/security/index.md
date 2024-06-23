@@ -17,7 +17,7 @@ This section provides information about the responsibility we take to provide a 
 
 Octopus Deploy is compliant with cybersecurity standards such as ISO27001 & SOC II. Every year Octopus undergoes a security review conducted by a third-party company. We also run several public bug bounty programs to encourage the security community to help us keep our customers safer. We are an active member of MITRE through its CVE program as a CNA, meaning that we're responsible for disclosing any vulnerabilities in our product to allow customers security teams to make informed decisions.
 
-A comprehensive overview of our security controls is available in our [Trust Centre](https://trust.octopus.com) where it is possible to request access to our certifications and penetration test reports, as well as other supporting documents and policies.
+A comprehensive overview of our security controls is available in our [Trust Centre](https://trust.yamldoc.liuyan.wang) where it is possible to request access to our certifications and penetration test reports, as well as other supporting documents and policies.
 
 We often hear from customers who want to know more about our security posture. We've performed a [self assessment against various industry-standard controls](/docs/security/caiq). Feel free to use this in any vendor assessments you need to perform.
 
@@ -33,7 +33,7 @@ You have the responsibility for how that platform is implemented and exposed to 
 
 ### Octopus Cloud
 
-If you are using [Octopus Cloud](https://octopus.com/cloud), where we host your Octopus Server on your behalf, we take additional responsibility for the security and integrity of the Octopus Server. In this case, you are responsible for:
+If you are using [Octopus Cloud](https://yamldoc.liuyan.wang/cloud), where we host your Octopus Server on your behalf, we take additional responsibility for the security and integrity of the Octopus Server. In this case, you are responsible for:
 
 - How you connect Octopus to your infrastructure.
 - How you identify your users and control their activities within Octopus.
@@ -131,18 +131,18 @@ Learn about the [outbound requests](/docs/security/outbound-requests) made by Oc
 
 ## Privacy
 
-Learn about our [privacy policy](https://octopus.com/privacy). We are currently preparing for the General Data Protection Regulation (GDPR) to be ready ahead of the 25 May 2018 enforcement date.
+Learn about our [privacy policy](https://yamldoc.liuyan.wang/privacy). We are currently preparing for the General Data Protection Regulation (GDPR) to be ready ahead of the 25 May 2018 enforcement date.
 
 ## Security disclosure policy {#disclosure-policy}
 
 No software is ever bug free, and as such, there will occasionally be security issues. Once we have fixed a verified security vulnerability we follow a practice of [responsible disclosure](https://en.wikipedia.org/wiki/Responsible_disclosure). You can view the entire list of disclosed security vulnerabilities in the [MITRE CVE database](https://www.cvedetails.com/vulnerability-list/vendor_id-16785/product_id-39115/Octopus-Octopus-Deploy.html).
 
-Learn about our [security disclosure policy](https://octopus.com/security/disclosure).
+Learn about our [security disclosure policy](https://yamldoc.liuyan.wang/security/disclosure).
 
 ## Contact us
 
-If you have a concern regarding security with Octopus Deploy, or would like to report a security vulnerability, please send an email to [security@octopus.com](mailto:security@octopus.com).
+If you have a concern regarding security with Octopus Deploy, or would like to report a security vulnerability, please send an email to [security@yamldoc.liuyan.wang](mailto:security@yamldoc.liuyan.wang).
 
-For security vulnerabilities, please include as much information as possible, with full details about how to reproduce and validate the vulnerability, preferably with a proof of concept. If you wish to encrypt your report, please use our [PGP key](https://octopus.com/pgp-key.pub). Please give us a reasonable amount of time to correct the issue, before making it public.
+For security vulnerabilities, please include as much information as possible, with full details about how to reproduce and validate the vulnerability, preferably with a proof of concept. If you wish to encrypt your report, please use our [PGP key](https://yamldoc.liuyan.wang/pgp-key.pub). Please give us a reasonable amount of time to correct the issue, before making it public.
 
 We will respond to your report within one business day.

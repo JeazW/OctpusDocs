@@ -39,8 +39,8 @@ Our major goal for the early stages of this feature is to discover the ways peop
 You can provide feedback through whichever of the following channels you feel most comfortable with: 
 
 - Feedback form. There is a link in a version-controlled project's **Version Control Settings** section that takes you to a feedback form when clicked. This is a great way to provide structured feedback. 
-- Community slack. The `config-as-code` channel in the [Octopus community slack](https://octopus.com/slack) is the best place to have a conversation with the team.
-- Support. For errors or issues, see our [official support](https://octopus.com/support) channels. 
+- Community slack. The `config-as-code` channel in the [Octopus community slack](https://yamldoc.liuyan.wang/slack) is the best place to have a conversation with the team.
+- Support. For errors or issues, see our [official support](https://yamldoc.liuyan.wang/support) channels. 
 
 ## Configuring a project to be version-controlled 
 

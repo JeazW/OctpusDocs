@@ -72,7 +72,7 @@ To force Octopus to download the newer SNAPSHOT release, select the **Re-downloa
 
 ## Versioning with Maven feeds
 
-When using artifacts from a Maven feed, the [Maven versioning scheme](https://octopus.com/blog/maven-versioning-explained) is used.
+When using artifacts from a Maven feed, the [Maven versioning scheme](https://yamldoc.liuyan.wang/blog/maven-versioning-explained) is used.
 
 The following qualifiers in the version are used to indicate that it is a pre-release version:
 

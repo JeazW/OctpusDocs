@@ -23,7 +23,7 @@ While multiple Octopus Server nodes form a logical "cluster" of servers, Octopus
 
 ## Configure the first node
 
-On the first Octopus Server node, [download the Octopus Server MSI](https://octopus.com/downloads), or you can install Octopus using [Chocolatey](https://community.chocolatey.org/packages/OctopusDeploy), and follow the setup wizard. Use the Getting Started wizard to configure the first Octopus node:
+On the first Octopus Server node, [download the Octopus Server MSI](https://yamldoc.liuyan.wang/downloads), or you can install Octopus using [Chocolatey](https://community.chocolatey.org/packages/OctopusDeploy), and follow the setup wizard. Use the Getting Started wizard to configure the first Octopus node:
 
 :::figure
 ![](/docs/administration/high-availability/configure/images/getting-started.png)

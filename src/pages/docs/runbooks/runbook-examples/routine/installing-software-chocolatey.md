@@ -22,7 +22,7 @@ Next, you need to ensure Chocolatey is installed.
 
 ### Install chocolatey
 
-Before you can use Chocolatey, it must be installed. To do this, you can use an existing step template from our [community library](/docs/projects/community-step-templates) called [Chocolatey - Ensure Installed](https://library.octopus.com/step-templates/c364b0a5-a0b7-48f8-a1a4-35e9f54a82d3/actiontemplate-chocolatey-ensure-installed). To add this step to a runbook:
+Before you can use Chocolatey, it must be installed. To do this, you can use an existing step template from our [community library](/docs/projects/community-step-templates) called [Chocolatey - Ensure Installed](https://library.yamldoc.liuyan.wang/step-templates/c364b0a5-a0b7-48f8-a1a4-35e9f54a82d3/actiontemplate-chocolatey-ensure-installed). To add this step to a runbook:
 
 1. Add the community step template called **Chocolatey - Ensure Installed**, and give the step a name.
 1. Choose the **Execution Location** on which to run this step.
@@ -189,4 +189,4 @@ We have a [Target - Windows](https://oc.to/TargetWindowsSamplesSpace) Space on o
 
 ## Learn more
 
-- [Automating developer machine setup with Chocolatey blog post](https://octopus.com/blog/automate-developer-machine-setup-with-chocolatey).
+- [Automating developer machine setup with Chocolatey blog post](https://yamldoc.liuyan.wang/blog/automate-developer-machine-setup-with-chocolatey).

@@ -84,5 +84,5 @@ Calamari is the tool Octopus uses to execute deployments on a remote computer. B
 
 ## Learn more
 
-- [Linux blog posts](https://octopus.com/blog/tag/linux)
+- [Linux blog posts](https://yamldoc.liuyan.wang/blog/tag/linux)
 - [Node.js sample](/docs/deployments/node-js/node-on-linux)

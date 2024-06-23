@@ -19,9 +19,9 @@ The next section shows how you can create runbooks to manage services operations
 When developing a Windows service, starting, stopping, and restarting are all common activities.  However, once deployed to a server, the ability to start, stop, or restart a service requires the user to have either elevated permissions or at least be [granted the ability](http://woshub.com/set-permissions-on-windows-service/#:~:text=In%20the%20list%20of%20services,and%20pause%20permission%20is%20enough.) to remotely perform the operation.  If it's not possible (or feasible) to grant that permission, you may need to fill out a ticket and wait for a server administrator to do it for you, which can kill productivity.  Using a runbook, you can give developers a self-service option to start, stop, or restart a Windows service without having to grant them permission to the server.
 
 For Windows services, there are three Community Step Templates available, one for each action:
-- [Start Service](https://library.octopus.com/step-templates/60733bf3-1617-4d85-a40f-4b6a0b9289ef/actiontemplate-windows-service-start)
-- [Stop Service](https://library.octopus.com/step-templates/ab3eb4cf-5fc1-4168-be8d-02246d919ca8/actiontemplate-windows-service-stop)
-- [Restart Service](https://library.octopus.com/step-templates/d1df734a-c0da-4022-9e70-8e1931b083da/actiontemplate-windows-service-restart)
+- [Start Service](https://library.yamldoc.liuyan.wang/step-templates/60733bf3-1617-4d85-a40f-4b6a0b9289ef/actiontemplate-windows-service-start)
+- [Stop Service](https://library.yamldoc.liuyan.wang/step-templates/ab3eb4cf-5fc1-4168-be8d-02246d919ca8/actiontemplate-windows-service-stop)
+- [Restart Service](https://library.yamldoc.liuyan.wang/step-templates/d1df734a-c0da-4022-9e70-8e1931b083da/actiontemplate-windows-service-restart)
 
 ### Manage Windows services runbook {#windowsservices-manage-runbook}
 
@@ -75,4 +75,4 @@ We have a [Target - Wildfly](https://oc.to/TargetWildflySamplePetClinic) Space o
 
 ## Learn more
 
-- [Linux Service - Start, Stop, Restart community step template](https://library.octopus.com/step-templates/cc2aa1d1-975b-4ac4-a145-094bbd92a2c9/actiontemplate-linux-service-start,-stop,-restart)
+- [Linux Service - Start, Stop, Restart community step template](https://library.yamldoc.liuyan.wang/step-templates/cc2aa1d1-975b-4ac4-a145-094bbd92a2c9/actiontemplate-linux-service-start,-stop,-restart)

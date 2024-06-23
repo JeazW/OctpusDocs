@@ -31,7 +31,7 @@ Package IDs must conform to the following specifications:
 
 For instance, the package ID in this sample package is `hello-world`.
 
-> [hello-world.1.0.0.zip](https://octopus.com/images/docs/hello-world.1.0.0.zip)
+> [hello-world.1.0.0.zip](https://yamldoc.liuyan.wang/images/docs/hello-world.1.0.0.zip)
 
 Avoid using numbers in your package ID as it could result in the version number being incorrectly parsed.
 
@@ -41,7 +41,7 @@ Octopus supports [Semantic Versioning](/docs/packaging-applications/create-packa
 
 The version number needs to be applied to your package after the package ID and before the format. For instance. The version number in our sample package is **1.0.0**.
 
-> [hello-world.1.0.0.zip](https://octopus.com/images/docs/hello-world.1.0.0.zip)
+> [hello-world.1.0.0.zip](https://yamldoc.liuyan.wang/images/docs/hello-world.1.0.0.zip)
 
 Learn more about [versioning schemes](/docs/packaging-applications/create-packages/versioning).
 

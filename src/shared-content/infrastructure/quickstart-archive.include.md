@@ -26,7 +26,7 @@ arch="x64"
 # arch="arm" # for Raspbian 32-bit
 # arch="arm64" # for 64-bit OS on ARM v7+ hardware
 
-curl -L https://octopus.com/downloads/latest/Linux_${arch}TarGz/OctopusTentacle --output tentacle-linux_${arch}.tar.gz
+curl -L https://yamldoc.liuyan.wang/downloads/latest/Linux_${arch}TarGz/OctopusTentacle --output tentacle-linux_${arch}.tar.gz
 
 mkdir /opt/octopus
 tar xvzf tentacle-linux_${arch}.tar.gz -C /opt/octopus
@@ -59,7 +59,7 @@ arch="x64"
 # arch="arm" # for Raspbian 32-bit
 # arch="arm64" # for 64-bit OS on ARM v7+ hardware
 
-curl -L https://octopus.com/downloads/latest/Linux_${arch}TarGz/OctopusTentacle --output tentacle-linux_${arch}.tar.gz
+curl -L https://yamldoc.liuyan.wang/downloads/latest/Linux_${arch}TarGz/OctopusTentacle --output tentacle-linux_${arch}.tar.gz
 
 mkdir /opt/octopus
 tar xvzf tentacle-linux_${arch}.tar.gz -C /opt/octopus
@@ -90,7 +90,7 @@ arch="x64"
 # arch="arm" # for Raspbian 32-bit
 # arch="arm64" # for 64-bit OS on ARM v7+ hardware
 
-curl -L https://octopus.com/downloads/latest/Linux_${arch}TarGz/OctopusTentacle --output tentacle-linux_${arch}.tar.gz
+curl -L https://yamldoc.liuyan.wang/downloads/latest/Linux_${arch}TarGz/OctopusTentacle --output tentacle-linux_${arch}.tar.gz
 
 mkdir /opt/octopus
 tar xvzf tentacle-linux_${arch}.tar.gz -C /opt/octopus
@@ -122,7 +122,7 @@ arch="x64"
 # arch="arm" # for Raspbian 32-bit
 # arch="arm64" # for 64-bit OS on ARM v7+ hardware
 
-curl -L https://octopus.com/downloads/latest/Linux_${arch}TarGz/OctopusTentacle --output tentacle-linux_${arch}.tar.gz
+curl -L https://yamldoc.liuyan.wang/downloads/latest/Linux_${arch}TarGz/OctopusTentacle --output tentacle-linux_${arch}.tar.gz
 
 mkdir /opt/octopus
 tar xvzf tentacle-linux_${arch}.tar.gz -C /opt/octopus

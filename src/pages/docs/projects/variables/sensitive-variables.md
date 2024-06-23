@@ -29,11 +29,11 @@ Each of the community step templates work by retrieving secrets from the Secret 
 
 Octopus has the following community step templates for integrating with Secret Manager/Key Vault tools:
 
-- [AWS Secret Manager](https://octopus.com/blog/using-aws-secrets-manager-with-octopus)
-- [Azure Key Vault](https://octopus.com/blog/using-azure-key-vault-with-octopus)
-- [CyberArk Conjur](https://library.octopus.com/step-templates/522c7010-7189-4b2e-a3c8-36cb1759422a/actiontemplate-cyberark-conjur-retrieve-secrets)
-- [GCP Secret Manager](https://octopus.com/blog/using-google-cloud-secret-manager-with-octopus)
-- [HashiCorp Vault](https://octopus.com/blog/using-hashicorp-vault-with-octopus-deploy)
+- [AWS Secret Manager](https://yamldoc.liuyan.wang/blog/using-aws-secrets-manager-with-octopus)
+- [Azure Key Vault](https://yamldoc.liuyan.wang/blog/using-azure-key-vault-with-octopus)
+- [CyberArk Conjur](https://library.yamldoc.liuyan.wang/step-templates/522c7010-7189-4b2e-a3c8-36cb1759422a/actiontemplate-cyberark-conjur-retrieve-secrets)
+- [GCP Secret Manager](https://yamldoc.liuyan.wang/blog/using-google-cloud-secret-manager-with-octopus)
+- [HashiCorp Vault](https://yamldoc.liuyan.wang/blog/using-hashicorp-vault-with-octopus-deploy)
 
 :::div{.success}
 View working examples of all of our Secrets Management community step templates in our [samples instance](https://samples.octopus.app/app#/Spaces-822) of Octopus. You can sign in as `Guest` to view them.
@@ -162,4 +162,4 @@ Of course, the best protection is not to `echo` potentially sensitive variables 
 
 ## Learn more
 
-- [Variable blog posts](https://octopus.com/blog/tag/variables)
+- [Variable blog posts](https://yamldoc.liuyan.wang/blog/tag/variables)

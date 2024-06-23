@@ -119,4 +119,4 @@ octo create-autodeployoverride --project "Hello World" --environment "Developmen
 
 ## Learn more
 
-- [Deployment patterns blog posts](https://octopus.com/blog/tag/Deployment%20Patterns).
+- [Deployment patterns blog posts](https://yamldoc.liuyan.wang/blog/tag/Deployment%20Patterns).

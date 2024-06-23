@@ -36,4 +36,4 @@ If you are using the built-in repository, you can create a [zip file](/docs/pack
 
 ## Learn more
 
-- Generate an Octopus guide for [NGINX and the rest of your CI/CD pipeline](https://octopus.com/docs/guides?destination=NGINX).
+- Generate an Octopus guide for [NGINX and the rest of your CI/CD pipeline](https://yamldoc.liuyan.wang/docs/guides?destination=NGINX).

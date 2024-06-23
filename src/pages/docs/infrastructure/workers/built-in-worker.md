@@ -83,5 +83,5 @@ You cannot run the Octopus Server as the `Local System` account and successfully
 
 ## Learn more
 
-- [Worker blog posts](https://octopus.com/blog/tag/workers) 
+- [Worker blog posts](https://yamldoc.liuyan.wang/blog/tag/workers) 
 

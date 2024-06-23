@@ -12,12 +12,12 @@ There are a number of tools Octopus Deploy integrates with to deploy to SQL Serv
 
 We have written a number of "iteration zero" blog posts that examine the benefits and approaches to automating database deployments:
 
-- [Why consider database deployment automation?](https://octopus.com/blog/why-consider-database-deployment-automation)
-- [Database deployment automation approaches](https://octopus.com/blog/database-deployment-automation-approaches)
-- [How to design an automated database deployment process](https://octopus.com/blog/designing-db-deployment-process)
-- [Automated database deployment process: case study](https://octopus.com/blog/use-case-for-designing-db-deployment-process)
-- [Implementing an automated database deployment process](https://octopus.com/blog/implementing-db-deployment-process)
-- [Pitfalls with rollbacks and automated database deployments](https://octopus.com/blog/database-rollbacks-pitfalls)
+- [Why consider database deployment automation?](https://yamldoc.liuyan.wang/blog/why-consider-database-deployment-automation)
+- [Database deployment automation approaches](https://yamldoc.liuyan.wang/blog/database-deployment-automation-approaches)
+- [How to design an automated database deployment process](https://yamldoc.liuyan.wang/blog/designing-db-deployment-process)
+- [Automated database deployment process: case study](https://yamldoc.liuyan.wang/blog/use-case-for-designing-db-deployment-process)
+- [Implementing an automated database deployment process](https://yamldoc.liuyan.wang/blog/implementing-db-deployment-process)
+- [Pitfalls with rollbacks and automated database deployments](https://yamldoc.liuyan.wang/blog/database-rollbacks-pitfalls)
 
 ## Common deployment process patterns
 
@@ -37,13 +37,13 @@ We have written a number of guides and blog posts on the various tooling Octopus
 
 - [Docs: Deploying to SQL Server with Redgate SQL Change Automation](/docs/deployments/databases/sql-server/redgate)
 - [Docs: Deploying to SQL Server with a DacPac](/docs/deployments/databases/sql-server/dacpac)
-- [Blog: Using DbUp and Workers to Automate Database Deployments](https://octopus.com/blog/dbup-database-deployments)
-- [Blog: Deploying to SQL Server with Entity Framework Core](https://octopus.com/blog/will-it-deploy-episode-03)
-- [Blog: Ad hoc SQL data scripts](https://octopus.com/blog/database-deployment-automation-adhoc-scripts-with-runbooks)
+- [Blog: Using DbUp and Workers to Automate Database Deployments](https://yamldoc.liuyan.wang/blog/dbup-database-deployments)
+- [Blog: Deploying to SQL Server with Entity Framework Core](https://yamldoc.liuyan.wang/blog/will-it-deploy-episode-03)
+- [Blog: Ad hoc SQL data scripts](https://yamldoc.liuyan.wang/blog/database-deployment-automation-adhoc-scripts-with-runbooks)
 
 See working examples on our [samples instance](https://samples.octopus.app/app#/Spaces-106).
 
 ## Learn more
 
-- [Blog: Automated blue/green database deployments](https://octopus.com/blog/databases-with-blue-green-deployments)
-- [Blog: Using ad-hoc scripts in your database deployment automation pipeline](https://octopus.com/blog/database-deployment-automation-adhoc-scripts)
+- [Blog: Automated blue/green database deployments](https://yamldoc.liuyan.wang/blog/databases-with-blue-green-deployments)
+- [Blog: Using ad-hoc scripts in your database deployment automation pipeline](https://yamldoc.liuyan.wang/blog/database-deployment-automation-adhoc-scripts)

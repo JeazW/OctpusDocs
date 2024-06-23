@@ -14,7 +14,7 @@ This page describes any outbound network requests made by Octopus and Tentacle, 
 For security reasons, we minimize the number of outbound requests made by the Tentacle deployment agent. The only outbound requests you should see are for:
 
 - [Certificate revocation list checking](http://en.wikipedia.org/wiki/Revocation_list), which is a security feature of .NET.
-- [Automatic root certificate updates](https://help.octopus.com/t/crl-ocsp-lookups-and-akamai-url-hits-from-octopus-and-tentacles/4854/3), again triggered by .NET.
+- [Automatic root certificate updates](https://help.yamldoc.liuyan.wang/t/crl-ocsp-lookups-and-akamai-url-hits-from-octopus-and-tentacles/4854/3), again triggered by .NET.
 - NuGet package downloads (only when using the **Tentacle downloads directly from NuGet** option).
 - Connections back to the Octopus Server (only when Tentacle is configured in [polling mode](/docs/infrastructure/deployment-targets/tentacle/tentacle-communication/#polling-tentacles)).
 
@@ -30,24 +30,24 @@ The Octopus Server makes the following outbound requests:
 4. Checking for updates (if enabled).
 5. Checking for updated [built-in step templates](/docs/projects/built-in-step-templates) (if enabled).
 6. Checking for updated [community contributed step templates](/docs/projects/community-step-templates) (if enabled).
-7. Behavioral telemetry is sent to https://telemetry.octopus.com (if enabled).
+7. Behavioral telemetry is sent to https://telemetry.yamldoc.liuyan.wang (if enabled).
 
 ### Built-in step templates
 
 From **Octopus 2022.1** some built-in step templates can be automatically updated. Octopus will make requests to the following URLs in order to check for and download updated versions of step templates:
 
-- `steps-feed.octopus.com`
+- `steps-feed.yamldoc.liuyan.wang`
 - `stepsprodpackages.blob.core.windows.net`. The infrastructure for the service that hosts the updated versions of step templates runs in Azure.
 
 ### Community contributed step templates
 
-Our community contributed step template integration queries `library.octopus.com` for updates.
+Our community contributed step template integration queries `library.yamldoc.liuyan.wang` for updates.
 
 ## What information is included when Octopus checks for updates? {#Outboundrequests-WhatinformationisincludedwhenOctopuschecksforupdates?}
 
 By default, Octopus will periodically check for new releases. You can opt-out of checking for updates by navigating to **Configuration ➜ Settings ➜ Updates** in Octopus.
 
-When the "Check for updates" option is enabled, Octopus will make a HTTPS request to the `octopus.com` domain every 8 hours. This request includes:
+When the "Check for updates" option is enabled, Octopus will make a HTTPS request to the `yamldoc.liuyan.wang` domain every 8 hours. This request includes:
 
 - The current Octopus Deploy version number that you are running.
 - A unique installation ID.

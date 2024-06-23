@@ -32,8 +32,8 @@ How the report is generated depends on the database tooling you chose.  Below ar
 - [Flyway Dry Runs](https://flywaydb.org/documentation/dryruns)
 - [RoundhousE Dry Run](https://github.com/chucknorris/roundhouse/wiki/ConfigurationOptions)
 - [SSDT/DacPac Deploy Report](https://docs.microsoft.com/en-us/sql/tools/sqlpackage?view=sql-server-ver15#deployreport-parameters-and-properties)
-- [Redgate SQL Change Automation Create Database Release](https://documentation.red-gate.com/sca4/deploying-database-changes/automated-deployments-with-sql-change-automation-projects/deploying-sql-change-automation-projects) - Please note: [Redgate's step template](https://library.octopus.com/step-templates/c20b70dc-69aa-42a1-85db-6d37341b63e3/actiontemplate-redgate-create-database-release) automatically creates artifacts for you.
-- [Redgate Oracle Deployment Suite](https://octopus.com/blog/database-deployment-automation-for-oracle-using-octopus-and-redgate-tools)
+- [Redgate SQL Change Automation Create Database Release](https://documentation.red-gate.com/sca4/deploying-database-changes/automated-deployments-with-sql-change-automation-projects/deploying-sql-change-automation-projects) - Please note: [Redgate's step template](https://library.yamldoc.liuyan.wang/step-templates/c20b70dc-69aa-42a1-85db-6d37341b63e3/actiontemplate-redgate-create-database-release) automatically creates artifacts for you.
+- [Redgate Oracle Deployment Suite](https://yamldoc.liuyan.wang/blog/database-deployment-automation-for-oracle-using-octopus-and-redgate-tools)
 
 The goal is to create a single file that can be uploaded as an [artifact](/docs/projects/deployment-process/artifacts) for the approvers to review.  
 
@@ -87,8 +87,8 @@ You might have only `Test` and `Production`.  In that case, you could add an `Ap
 
 Notifications come in many forms.  With Octopus Deploy you have many options:
 
-- [Slack](https://library.octopus.com/step-templates/99e6f203-3061-4018-9e34-4a3a9c3c3179/actiontemplate-slack-send-simple-notification)
-- [Microsoft Teams](https://library.octopus.com/step-templates/110a8b1e-4da4-498a-9209-ef8929c31168/actiontemplate-microsoft-teams-post-a-message)
+- [Slack](https://library.yamldoc.liuyan.wang/step-templates/99e6f203-3061-4018-9e34-4a3a9c3c3179/actiontemplate-slack-send-simple-notification)
+- [Microsoft Teams](https://library.yamldoc.liuyan.wang/step-templates/110a8b1e-4da4-498a-9209-ef8929c31168/actiontemplate-microsoft-teams-post-a-message)
 - [Email](/docs/projects/built-in-step-templates/email-notifications)
 - [Custom Step Template](/docs/projects/custom-step-templates)
 

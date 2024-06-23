@@ -47,7 +47,7 @@ If you don't have an `AWS Account` defined yet, check our [documentation on how 
 :::
 
 :::div{.hint}
-The benefits of using deployment targets for ECS are outlined in the [ECS RFC blog post](https://octopus.com/blog/rfc-ecs-integration-with-octopus#why-use-targets).
+The benefits of using deployment targets for ECS are outlined in the [ECS RFC blog post](https://yamldoc.liuyan.wang/blog/rfc-ecs-integration-with-octopus#why-use-targets).
 :::
 
 ## Step 3: Add the Update ECS Service step

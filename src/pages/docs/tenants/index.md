@@ -14,13 +14,13 @@ hideInThisSection: true
 
 Tenants in Octopus help you deploy software to many production instances, targets, or customers without duplicating effort. This includes:
 
-- Delivering [Software as a Service (SaaS)](https://octopus.com/use-case/tenanted-deployments/saas/) applications where each customer has its own resources
-- Deploying to [physical locations](https://octopus.com/use-case/tenanted-deployments/physical-locations/) like stores, hospitals, or data centers
+- Delivering [Software as a Service (SaaS)](https://yamldoc.liuyan.wang/use-case/tenanted-deployments/saas/) applications where each customer has its own resources
+- Deploying to [physical locations](https://yamldoc.liuyan.wang/use-case/tenanted-deployments/physical-locations/) like stores, hospitals, or data centers
 - Dealing with multiple cloud regions
 
 Although you can model these scenarios using multiple projects, or multiple environments, this can quickly become overwhelming. These models also don’t scale well as there is a lot of duplication.
 
-[Tenants](https://octopus.com/features/tenants) let you easily create customer or location-specific deployment pipelines without duplicating project configuration. You can manage separate instances of your application in multiple environments – all from a single Octopus project. This allows you to define one process and easily deploy to any number of tenants. 
+[Tenants](https://yamldoc.liuyan.wang/features/tenants) let you easily create customer or location-specific deployment pipelines without duplicating project configuration. You can manage separate instances of your application in multiple environments – all from a single Octopus project. This allows you to define one process and easily deploy to any number of tenants. 
 
 :::figure
 ![](/docs/tenants/images/octopus-tenants-deployments.png)
@@ -35,7 +35,7 @@ Tenants let you:
 - Deploy to shared or dedicated [infrastructure](/docs/tenants/tenant-infrastructure) per tenant.
 - Limit access to tenants by [scoping team roles](/docs/tenants/tenant-roles-and-security) to tenants.
 - Create release rings to easily deploy to alpha and beta tenants.
-- Build simple [tenanted deployment](https://octopus.com/use-case/tenanted-deployments) processes that can scale as you add more tenants.
+- Build simple [tenanted deployment](https://yamldoc.liuyan.wang/use-case/tenanted-deployments) processes that can scale as you add more tenants.
 
 ## When to use tenants {#when-to-use-tenants}
 Tenants simplify complex deployments if you're deploying your application more than once in an environment.
@@ -47,7 +47,7 @@ Consider using tenants if:
 
 You don't need tenants in every deployment scenario. If you don't deploy multiple instances of your software, and don't have unique needs like features, branding, or compliance, you may not need tenanted deployments. 
 
-Check out our [multi-tenancy guides](https://octopus.com/docs/tenants/guides) for more detail on how to use tenanted deployments in Octopus for common scenarios.
+Check out our [multi-tenancy guides](https://yamldoc.liuyan.wang/docs/tenants/guides) for more detail on how to use tenanted deployments in Octopus for common scenarios.
 
 ## Types of tenants {#types-of-tenants}
 While it’s common to use tenants to represent the customers of your application, there are many more ways you can use tenants. 
@@ -58,7 +58,7 @@ Tenants can also represent:
 - Developers, testers, or teams
 - Feature branches
 
-Learn more about [tenant types](https://octopus.com/docs/tenants/tenant-types).
+Learn more about [tenant types](https://yamldoc.liuyan.wang/docs/tenants/tenant-types).
 
 ## Create your first tenant {#create-your-first-tenant}
 
@@ -71,7 +71,7 @@ It’s simple to configure a new or existing Octopus project to use the Tenants 
 You often want to define different variable values for each tenant, like database connection settings or a tenant-specific URL. If you use an untenanted project, you’ll have previously defined these values in the project itself. But with a tenanted project, you can set these values directly on the tenant for any connected projects.
 
 ### Tenant-provided variables are not snapshotted 
-When you [create a release](/docs/octopus-rest-api/octopus-cli/create-release/) in Octopus Deploy, we take a snapshot of the deployment process and the current state of the [project variables](https://octopus.com/docs/projects/variables). However, we do not take a snapshot of tenant variables. This lets you add new tenants at any time and deploy to them without creating a new release. This means any changes you make to tenant variables take immediate effect.
+When you [create a release](/docs/octopus-rest-api/octopus-cli/create-release/) in Octopus Deploy, we take a snapshot of the deployment process and the current state of the [project variables](https://yamldoc.liuyan.wang/docs/projects/variables). However, we do not take a snapshot of tenant variables. This lets you add new tenants at any time and deploy to them without creating a new release. This means any changes you make to tenant variables take immediate effect.
 
 Learn more about [tenant variables](/docs/tenants/tenant-variables) in our documentation.
 
@@ -84,4 +84,4 @@ If you’re having any issues with tenants, we have useful answers to common que
 - [Multi-tenant deployments FAQ](/docs/tenants/tenant-deployment-faq)
 - [Troubleshooting multi-tenant deployments](/docs/tenants/troubleshooting-multi-tenant-deployments)
 
-If you still have questions, [we’re always here to help](https://octopus.com/support).
+If you still have questions, [we’re always here to help](https://yamldoc.liuyan.wang/support).

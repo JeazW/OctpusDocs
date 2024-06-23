@@ -8,7 +8,7 @@ navOrder: 40
 hideInThisSection: true
 ---
 
-Octopus models your platform-as-a-service endpoints as deployment targets. Read more PaaS targets [blog: PaaS deployment targets](https://octopus.com/blog/paas-targets).
+Octopus models your platform-as-a-service endpoints as deployment targets. Read more PaaS targets [blog: PaaS deployment targets](https://yamldoc.liuyan.wang/blog/paas-targets).
 
 Octopus's Azure targets provide a reference to actual targets in your Azure infrastructure, allowing you to target several PaaS products by [target tag](/docs/infrastructure/deployment-targets/#target-roles) during a deployment. Azure targets are added the same way as regular deployment targets and go through health checks, so you know the status of your Azure infrastructure targets and can spot any problems.
 

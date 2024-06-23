@@ -65,7 +65,7 @@ Next, we are going to add the manual intervention step for the DBAs to approve. 
 This project deploys a database package using [DBUp](https://github.com/DbUp/), a free database deployment tool.  Some tools provide the ability to generate a difference report before deployments, Octopus can store this report as an artifact, and a DBA can download and review.  In that case, it makes more sense to have the manual intervention occur after that report has been generated.
 :::
 
-Many [community step templates](https://library.octopus.com) have been created to help with some of this database scaffolding.  We will use the **SQL - Create Database If Not Exists** step template to create the database if it doesn't exist.  We are going to use variables from the library sets we included previously.  For now, we are going to execute this script on a Tentacle with the role `OctoFX-DB.`  Later in this guide, we will convert this to use workers.
+Many [community step templates](https://library.yamldoc.liuyan.wang) have been created to help with some of this database scaffolding.  We will use the **SQL - Create Database If Not Exists** step template to create the database if it doesn't exist.  We are going to use variables from the library sets we included previously.  For now, we are going to execute this script on a Tentacle with the role `OctoFX-DB.`  Later in this guide, we will convert this to use workers.
 
 :::figure
 ![]/docs/shared-content/octopus-recommendations/configure-project/images/projectconfiguration-createdatabaseifnotexists.png)

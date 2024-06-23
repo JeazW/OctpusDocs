@@ -89,7 +89,7 @@ ADMIN_EMAIL=
 # Accept the Microsoft Sql Server Eula found here: https://go.microsoft.com/fwlink/?linkid=857698
 ACCEPT_EULA=Y
 
-# Use of this Image means you must accept the Octopus Deploy Eula found here: https://octopus.com/company/legal
+# Use of this Image means you must accept the Octopus Deploy Eula found here: https://yamldoc.liuyan.wang/company/legal
 ACCEPT_OCTOPUS_EULA=Y
 
 # Unique Server Node Name - If left empty will default to the machine Name
@@ -164,5 +164,5 @@ For further information about the additional configuration of the SQL Server con
 
 ## Learn more
 
- - [Docker blog posts](http://octopus.com/blog/tag/docker)
- - [Linux blog posts](https://octopus.com/blog/tag/linux)
+ - [Docker blog posts](http://yamldoc.liuyan.wang/blog/tag/docker)
+ - [Linux blog posts](https://yamldoc.liuyan.wang/blog/tag/linux)

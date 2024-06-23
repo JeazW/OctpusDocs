@@ -99,7 +99,7 @@ The `Private key filename` field is used to define the location of the private k
 The `Public key filename` field is used to define the location of the public certificate. If left blank, the public certificate file will be created with a unique filename in the `CATALINA_BASE/conf` directory, and the filename will be based on the certificate subject. If specified, a certificate file will be created at the specified location, overwriting any existing file. Any value entered for the filename must be an absolute path.
 
 ## Multiple certificate types
-In Tomcat 8.5 and above, [multiple certificates](https://octopus.com/blog/mixing-keys-in-tomcat) can be assigned to a single port. This is most useful for assigning a RSA and a ECDSA certificate, and allowing the client to select the most secure option.
+In Tomcat 8.5 and above, [multiple certificates](https://yamldoc.liuyan.wang/blog/mixing-keys-in-tomcat) can be assigned to a single port. This is most useful for assigning a RSA and a ECDSA certificate, and allowing the client to select the most secure option.
 
 When exporting a certificate from Octopus to Tomcat 8.5+, the type of certificate is automatically determined, and multiple certificates of different types can be assigned to the same port.
 

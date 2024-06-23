@@ -104,7 +104,7 @@ Where version stings cannot be parsed as major.minor.patch.build and the qualifi
 
 A dash or a period can be used to separate Major, Minor, Patch, and Build, however, using a separator between the last digit and the qualifier is optional.
 
-For an in-depth look at Maven versions, see the blog post [Maven Versions Explained](https://octopus.com/blog/maven-versioning-explained).
+For an in-depth look at Maven versions, see the blog post [Maven Versions Explained](https://yamldoc.liuyan.wang/blog/maven-versioning-explained).
 
 ## Learn more
 

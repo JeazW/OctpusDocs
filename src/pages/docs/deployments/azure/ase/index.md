@@ -46,5 +46,5 @@ This is also why using a [principal of least privilege on a Service Principal](/
 
 ## Learn more
 
-- Generate an Octopus guide for [Azure and the rest of your CI/CD pipeline](https://octopus.com/docs/guides?destination=Azure%20websites).
+- Generate an Octopus guide for [Azure and the rest of your CI/CD pipeline](https://yamldoc.liuyan.wang/docs/guides?destination=Azure%20websites).
 

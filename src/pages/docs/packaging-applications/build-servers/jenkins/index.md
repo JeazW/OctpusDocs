@@ -21,7 +21,7 @@ Octopus Deploy will take those packages and push them to development, test, and 
 
 ## Jenkins installation
 
-If you need guidance installing Jenkins for the first time, see the [Jenkins documentation](https://www.jenkins.io/doc/book/installing/), or the blog post, [installing Jenkins from Scratch](https://octopus.com/blog/installing-jenkins-from-scratch).
+If you need guidance installing Jenkins for the first time, see the [Jenkins documentation](https://www.jenkins.io/doc/book/installing/), or the blog post, [installing Jenkins from Scratch](https://yamldoc.liuyan.wang/blog/installing-jenkins-from-scratch).
 
 ## Install the Octopus Jenkins plugin {#install-the-octopus-jenkins-plugin}
 
@@ -52,7 +52,7 @@ This is a good time to install the [Octopus CLI](/docs/octopus-rest-api/octopus-
 
 You can do either of these:
   - Use the `dotnet tool install` command to install it, the [Octopus CLI Global Tool](/docs/octopus-rest-api/octopus-cli/install-global-tool) this works great on Linux and Windows.
-  - [Download Octopus CLI](https://octopus.com/downloads) and extract it to a folder on your Jenkins server, such as `C:\Tools\Octo` or `/usr/local/bin`.
+  - [Download Octopus CLI](https://yamldoc.liuyan.wang/downloads) and extract it to a folder on your Jenkins server, such as `C:\Tools\Octo` or `/usr/local/bin`.
 
 Then we can let the plugin know where it is installed.
 
@@ -199,12 +199,12 @@ A successful run looks like this:
 
 We welcome contributions; issues, bug fixes, enhancements.
 
-If you are starting to work on something more detailed please contact our [support team](https://octopus.com/support) to ensure it aligns with what we have going on, and that we are not doubling up efforts.
+If you are starting to work on something more detailed please contact our [support team](https://yamldoc.liuyan.wang/support) to ensure it aligns with what we have going on, and that we are not doubling up efforts.
 
 Have a look at the [Octopus-Jenkins-Plugin repository](https://github.com/OctopusDeploy/octopus-jenkins-plugin) on GitHub. We also have the following [developer focused guidelines](https://github.com/OctopusDeploy/octopus-jenkins-plugin/blob/master/developer-guide/) to get you started working on the plugin.
 :::
 
 ## Learn more
 
-- Generate an Octopus guide for [Jenkins and the rest of your CI/CD pipeline](https://octopus.com/docs/guides?buildServer=Jenkins)
- - [Jira blog posts](https://octopus.com/blog/tag/jira)
+- Generate an Octopus guide for [Jenkins and the rest of your CI/CD pipeline](https://yamldoc.liuyan.wang/docs/guides?buildServer=Jenkins)
+ - [Jira blog posts](https://yamldoc.liuyan.wang/blog/tag/jira)

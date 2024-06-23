@@ -24,7 +24,7 @@ You can create API keys by performing the following steps:
 
 :::div{.warning}
 **Write Your Key Down**
-After you generate an API key, it cannot be retrieved from the Octopus Web Portal again, we store only a one-way hash of the API key. If you want to use the API key again, you need to store it in a secure place such as a password manager. Read about [why we hash API keys](https://octopus.com/blog/hashing-api-keys).
+After you generate an API key, it cannot be retrieved from the Octopus Web Portal again, we store only a one-way hash of the API key. If you want to use the API key again, you need to store it in a secure place such as a password manager. Read about [why we hash API keys](https://yamldoc.liuyan.wang/blog/hashing-api-keys).
 :::
 
 ## Setting an expiry date

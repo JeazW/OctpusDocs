@@ -46,7 +46,7 @@ The bottom line is that every step will in the end call an Octopus CLI command. 
 
 ### Troubleshooting the error {#Octopus-Steps-Troubleshooting-the-error}
 
-As shown in the above screenshots, the exact `octo` command that was executed (and failed) will be printed in the logs. So the best way to troubleshoot that error would be to copy the full command, and try to run it yourself by [downloading the Octopus CLI to your local machine](https://octopus.com/downloads). A few tips and gotchas for this:
+As shown in the above screenshots, the exact `octo` command that was executed (and failed) will be printed in the logs. So the best way to troubleshoot that error would be to copy the full command, and try to run it yourself by [downloading the Octopus CLI to your local machine](https://yamldoc.liuyan.wang/downloads). A few tips and gotchas for this:
 
 - If you are not familiar with the Octopus CLI, then [read our documentation about it](/docs/octopus-rest-api/octopus-cli). Understanding how the command you are troubleshooting works will be critical for your success.
 
@@ -67,11 +67,11 @@ As shown in the above screenshots, the exact `octo` command that was executed (a
 ```
 *In this case we are using `octo` version `7.4.3264` against an Octopus Server version `2021.2.7660`*
 
-- If the version of the Octopus CLI that your build server is using is out of date, and you downloaded that same version and you were able to reproduce the error, try downloading the latest version available of the Octopus CLI and see if you can still reproduce it. You can [download the latest version from the downloads page](https://octopus.com/downloads). It's possible that the bug was already fixed and we only need to ship a new version of the plugin/extension with the fixed Octopus CLI. If that's the case, then [log an issue with our support team](https://octopus.com/support) so we can take care of it.
+- If the version of the Octopus CLI that your build server is using is out of date, and you downloaded that same version and you were able to reproduce the error, try downloading the latest version available of the Octopus CLI and see if you can still reproduce it. You can [download the latest version from the downloads page](https://yamldoc.liuyan.wang/downloads). It's possible that the bug was already fixed and we only need to ship a new version of the plugin/extension with the fixed Octopus CLI. If that's the case, then [log an issue with our support team](https://yamldoc.liuyan.wang/support) so we can take care of it.
 
 ### Last resource - ask for help {#Octopus-Steps-Ask-for-help}
 
-The Octopus support team will always be there to give you a hand. But do know that the first thing we'll ask you is if you read this guide and followed all the steps on it! If you did and you still couldn't find the error, then [log a ticket in our forum](https://help.octopus.com) and include:
+The Octopus support team will always be there to give you a hand. But do know that the first thing we'll ask you is if you read this guide and followed all the steps on it! If you did and you still couldn't find the error, then [log a ticket in our forum](https://help.yamldoc.liuyan.wang) and include:
 
 - Version of Octopus Server you are running.
 - Name and Version of the build server technology you are using.
@@ -89,4 +89,4 @@ Make sure to set the ticket as **private** before attaching any kind of log, as 
 
 If you are using a custom step/plugin/extension to hook up your Build server with Octopus, then all we can recommend you is to know your `octo` game very well.
 
-If you are using a build server technology [that's not in our supported list](/docs/octopus-rest-api) [share your product feedback](https://roadmap.octopus.com/submit-idea) to let us know how we can help you have happy deployments.
+If you are using a build server technology [that's not in our supported list](/docs/octopus-rest-api) [share your product feedback](https://roadmap.yamldoc.liuyan.wang/submit-idea) to let us know how we can help you have happy deployments.

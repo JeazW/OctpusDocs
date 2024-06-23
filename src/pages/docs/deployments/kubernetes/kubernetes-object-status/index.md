@@ -91,4 +91,4 @@ If there are multiple steps in deploying Kubernetes resources, each step will ha
 
 ## Useful links
 
-* [Find more details in the blog post](https://octopus.com/blog/live-updates-kubernetes-objects-deployments)
+* [Find more details in the blog post](https://yamldoc.liuyan.wang/blog/live-updates-kubernetes-objects-deployments)

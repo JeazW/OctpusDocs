@@ -14,7 +14,7 @@ Keeping multiple instances in sync is a complex task involving dozens if not hun
 
 :::div{.problem}
 
-TL;DR; copying projects between instances should be done when all other options have been exhausted.  There is no provided tooling to support syncing instances with different environments, tenants, or variable values.  Due to the number of decisions and business rules, you will have to create and maintain a custom syncing process.  Before making this decision, reach out to [customersuccess@octopus.com](mailto:customersuccess@octopus.com) to see if there are alternatives.
+TL;DR; copying projects between instances should be done when all other options have been exhausted.  There is no provided tooling to support syncing instances with different environments, tenants, or variable values.  Due to the number of decisions and business rules, you will have to create and maintain a custom syncing process.  Before making this decision, reach out to [customersuccess@yamldoc.liuyan.wang](mailto:customersuccess@yamldoc.liuyan.wang) to see if there are alternatives.
 :::
 
 ## Suitable scenarios
@@ -33,7 +33,7 @@ If you wish to do a one-time split of an instance and have no desire to keep any
 
 ## Consider alternatives
 
-As you will soon see, a syncing process is complex an requires constant care and maintenance.  Even if we provided a built-in tool, you'd still need to monitor and maintain the process.  Below are the common reasons we hear for splitting an instance.  Please reach out to reach out to [customersuccess@octopus.com](mailto:customersuccess@octopus.com) if your use case is not mentioned and you'd like to discuss alternatives.
+As you will soon see, a syncing process is complex an requires constant care and maintenance.  Even if we provided a built-in tool, you'd still need to monitor and maintain the process.  Below are the common reasons we hear for splitting an instance.  Please reach out to reach out to [customersuccess@yamldoc.liuyan.wang](mailto:customersuccess@yamldoc.liuyan.wang) if your use case is not mentioned and you'd like to discuss alternatives.
 
 :::div{.hint}
 We've been asked if splitting environments, tenants or deployment targets by space is a safer alternative.  [Spaces](/docs/administration/spaces) are hard walls and do not allow the sharing of environments, projects, library variable sets, step templates, script modules, deployment targets and more.  For all intents and purposes, a space is a unique instance.  Any problems you encounter when syncing instances will happen when trying to sync spaces.

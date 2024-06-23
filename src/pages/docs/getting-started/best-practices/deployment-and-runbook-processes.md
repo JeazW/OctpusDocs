@@ -80,7 +80,7 @@ An example representing the deployment process is:
 
 ## Running a runbook from a deployment
 
-With the [Run Octopus Deploy Runbook step template](https://library.octopus.com/step-templates/0444b0b3-088e-4689-b755-112d1360ffe3/actiontemplate-run-octopus-deploy-runbook), you can trigger a runbook run from a deployment.  We recommend doing this when you need to perform non-deployment maintenance tasks.  Some examples include:
+With the [Run Octopus Deploy Runbook step template](https://library.yamldoc.liuyan.wang/step-templates/0444b0b3-088e-4689-b755-112d1360ffe3/actiontemplate-run-octopus-deploy-runbook), you can trigger a runbook run from a deployment.  We recommend doing this when you need to perform non-deployment maintenance tasks.  Some examples include:
 
 - Ensuring all the deployment targets have the necessary software installed (node.js, JRE, etc.).
 - Spinning up or down new testing infrastructure.

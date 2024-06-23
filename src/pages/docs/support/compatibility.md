@@ -25,7 +25,7 @@ The table below outlines the backward compatibility between Octopus Server and r
 
 Older versions of some libraries and plugins _may_ work with **2019.1** and higher _only if_ the [default space](https://oc.to/default-space) is enabled and such integrations are only used against that space. To make use of other spaces, please upgrade.
 
-However, **2019.1** also carries some breaking changes to the API so care must be taken when upgrading from a prior version that existing integrations are not affected. There is a comprehensive rundown of these changes available in our [downloads section](https://octopus.com/downloads/compare?from=2018.12.1&to=2019.1.0).
+However, **2019.1** also carries some breaking changes to the API so care must be taken when upgrading from a prior version that existing integrations are not affected. There is a comprehensive rundown of these changes available in our [downloads section](https://yamldoc.liuyan.wang/downloads/compare?from=2018.12.1&to=2019.1.0).
 
 The table below outlines partially forwards compatible scenarios between Octopus Server and related components
 
@@ -58,7 +58,7 @@ The following versions of Octopus have a requirement for SQL Server 2017+.
 - 2020.2.0 ➜ 2020.2.17
 - 2020.3.0 ➜ 2020.3.5
 
-This requirement has been relaxed to SQL Server 2016+ for any patch version **later** than specified in this note. Please see [this post](https://octopus.com/blog/raising-minimum-requirements-for-octopus-server) for further details.
+This requirement has been relaxed to SQL Server 2016+ for any patch version **later** than specified in this note. Please see [this post](https://yamldoc.liuyan.wang/blog/raising-minimum-requirements-for-octopus-server) for further details.
 :::
 
-In **Octopus 1.0 ➜  2.6.5** it used [RavenDB](https://ravendb.net/) and we switched to SQL in **Octopus 3.0**. You can read more about it in our [blog post](https://octopus.com/blog/3.0-switching-to-sql).
+In **Octopus 1.0 ➜  2.6.5** it used [RavenDB](https://ravendb.net/) and we switched to SQL in **Octopus 3.0**. You can read more about it in our [blog post](https://yamldoc.liuyan.wang/blog/3.0-switching-to-sql).

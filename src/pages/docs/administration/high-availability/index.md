@@ -40,7 +40,7 @@ The node limit is included in the license key in the NodeLimit node.
 <NodeLimit>Unlimited</NodeLimit>
 ```
 
-If you do not have that node in your license key then you are limited to a single node.  If you recently purchased a license key and it is missing that node then reach out to [sales@octopus.com](mailto:sales@octopus.com).
+If you do not have that node in your license key then you are limited to a single node.  If you recently purchased a license key and it is missing that node then reach out to [sales@yamldoc.liuyan.wang](mailto:sales@yamldoc.liuyan.wang).
 
 ## How High Availablity works
 

@@ -26,7 +26,7 @@ Octopus [encrypts important and sensitive data](/docs/security/data-encryption) 
 
 ## Recovering with a new Master Key
 
-If you are confident with Octopus you can follow these steps to get back up and going. Otherwise, please get in contact with our [support team](https://octopus.com/support) so we can be available to help get you up and going.
+If you are confident with Octopus you can follow these steps to get back up and going. Otherwise, please get in contact with our [support team](https://yamldoc.liuyan.wang/support) so we can be available to help get you up and going.
 
 ### Step 1. Back up before you start
 

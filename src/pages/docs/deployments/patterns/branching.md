@@ -78,7 +78,7 @@ When designing channels in Octopus, don't think about channels as another name f
 - **Branches** can be short lived and tend to get merged, and model the way code changes in the system.
 - **Channels** are often long lived, and model your release process.
 
-For example, [Google Chrome have four different channels](https://www.chromium.org/getting-involved/dev-channel) (Stable, Beta, Dev, and Canary). Their channels are designed around user's tolerance for bleeding edge features vs. stability. Underneath, they may have many release branches contributing to those channels. You can read about implementing [early-access programs in the Channels Walk-through](https://octopus.com/blog/channels-walkthrough#early-access-programs).
+For example, [Google Chrome have four different channels](https://www.chromium.org/getting-involved/dev-channel) (Stable, Beta, Dev, and Canary). Their channels are designed around user's tolerance for bleeding edge features vs. stability. Underneath, they may have many release branches contributing to those channels. You can read about implementing [early-access programs in the Channels Walk-through](https://yamldoc.liuyan.wang/blog/channels-walkthrough#early-access-programs).
 
 It's important to realize that **branches will map to different channels over time**. For example, right now, packages from the `release/v2` branch might map to your "Stable" channel in Octopus, while packages from `release/v3` go to your "Early Adopter" channel.
 
@@ -93,7 +93,7 @@ Feature branches are usually short lived, and allow developers to work on a new 
 ![](/docs/deployments/patterns/images/3278442.png)
 :::
 
-If feature branches do need to be deployed, then you can create NuGet packages from them, and then release them with Octopus as per normal. To keep feature branch packages separate from release-ready packages, [we recommend using SemVer tags](https://docs.nuget.org/create/versioning#really-brief-introduction-to-semver) in the NuGet package version. You should be able to [configure your build server to generate version numbers based on the feature branch](https://octopus.com/blog/teamcity-version-numbers-based-on-branches).
+If feature branches do need to be deployed, then you can create NuGet packages from them, and then release them with Octopus as per normal. To keep feature branch packages separate from release-ready packages, [we recommend using SemVer tags](https://docs.nuget.org/create/versioning#really-brief-introduction-to-semver) in the NuGet package version. You should be able to [configure your build server to generate version numbers based on the feature branch](https://yamldoc.liuyan.wang/blog/teamcity-version-numbers-based-on-branches).
 
 :::figure
 ![](/docs/deployments/patterns/images/3278443.png)
@@ -113,7 +113,7 @@ A final branching strategy that we see is to use a branch per environment that g
 ![](/docs/deployments/patterns/images/3278444.png)
 :::
 
-We do not like or recommend this strategy, as it violates the principle of [Build your Binaries Once](http://octopus.com/blog/build-your-binaries-once).
+We do not like or recommend this strategy, as it violates the principle of [Build your Binaries Once](http://yamldoc.liuyan.wang/blog/build-your-binaries-once).
 
 - The code that will eventually run in production may not match 100% the code run during testing.
 - It's easy for a merge to go wrong and result in different code than you expected running in production.
@@ -209,4 +209,4 @@ When creating the release, you can then choose whether the release is for an ind
 
 ## Learn more
 
-- [Deployment patterns blog posts](https://octopus.com/blog/tag/Deployment%20Patterns).
+- [Deployment patterns blog posts](https://yamldoc.liuyan.wang/blog/tag/Deployment%20Patterns).

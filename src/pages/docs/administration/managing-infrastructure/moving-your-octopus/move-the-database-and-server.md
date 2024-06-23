@@ -27,7 +27,7 @@ Below are instructions on how to move your Octopus Server and SQL Database.
 2. Ensure you have saved a copy of your [Master Key](/docs/security/data-encryption/#Securityandencryption-YourMasterKey).
 3. Take a backup of your Octopus database.
 4. Restore the database on your new server.
-5. Create a new Octopus instance using the same Octopus version as your original instance. You can find an older version and download the MSI in our [previous releases](https://octopus.com/downloads/previous) page.
+5. Create a new Octopus instance using the same Octopus version as your original instance. You can find an older version and download the MSI in our [previous releases](https://yamldoc.liuyan.wang/downloads/previous) page.
 6. During the installation of your new instance, select the database you restored. It will prompt for the Master Key.
 7. Copy the following directories from your original server to the new server (each of these folders are located in C:\Octopus in standard installations).
    - Artifacts

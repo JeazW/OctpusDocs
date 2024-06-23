@@ -108,4 +108,4 @@ When you are using external feed triggers there are a few reasons why a release 
 
 ## Learn more
 
-Take a look at the [Octopus Guides](https://octopus.com/docs/guides) which covers building and packaging your application, creating releases and deploying to your environments for your CI/CD pipeline.
+Take a look at the [Octopus Guides](https://yamldoc.liuyan.wang/docs/guides) which covers building and packaging your application, creating releases and deploying to your environments for your CI/CD pipeline.

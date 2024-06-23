@@ -32,4 +32,4 @@ All Google cloud steps execute on a worker. By default, that will be the built-i
 
 - How to use the [Run gcloud in a Script](/docs/deployments/google-cloud/run-gcloud-script) step
 - How to create [Google cloud accounts](/docs/infrastructure/accounts/google-cloud)
-- [Google cloud blog posts](https://octopus.com/blog/search?q=google)
+- [Google cloud blog posts](https://yamldoc.liuyan.wang/blog/search?q=google)

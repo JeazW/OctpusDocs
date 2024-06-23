@@ -78,5 +78,5 @@ For instructions to set up a Username and Password account in Octopus, see [User
 
 ## Learn more
 
-- [Variable blog posts](https://octopus.com/blog/tag/variables)
+- [Variable blog posts](https://yamldoc.liuyan.wang/blog/tag/variables)
 - How to create [Username and password accounts](/docs/infrastructure/accounts/username-and-password)

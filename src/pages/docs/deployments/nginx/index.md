@@ -19,4 +19,4 @@ Any part of this guide can be attempted on its own in conjunction with other pro
 
 ## Learn more
 
-- Generate an Octopus guide for [NGINX and the rest of your CI/CD pipeline](https://octopus.com/docs/guides?destination=NGINX).
+- Generate an Octopus guide for [NGINX and the rest of your CI/CD pipeline](https://yamldoc.liuyan.wang/docs/guides?destination=NGINX).

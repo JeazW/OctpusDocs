@@ -28,7 +28,7 @@ The Octopus extension has 4 prerequisites:
 * The Octopus for GitHub Copilot application
 
 ### Creating an Octopus cloud instance
-The Octopus extension is available for cloud Octopus instances. Click [here](https://octopus.com/start) to sign up for a trial cloud Octopus instance.
+The Octopus extension is available for cloud Octopus instances. Click [here](https://yamldoc.liuyan.wang/start) to sign up for a trial cloud Octopus instance.
 
 ### Integrating an on-premises Octopus instance
 
@@ -83,7 +83,7 @@ You must log in to Octopus every 8 hours. It is recommended you save the Octopus
 
 ## Test query website
 
-A [test website](https://aiagent.octopus.com/api/form) allows you to query Octopus without Copilot. You must enter a GitHub token as identification, and complete the log in process with the same user as the one associated with the GitHub token. You can then query your Octopus instance via the web form in the same way you would query it from Copilot.
+A [test website](https://aiagent.yamldoc.liuyan.wang/api/form) allows you to query Octopus without Copilot. You must enter a GitHub token as identification, and complete the log in process with the same user as the one associated with the GitHub token. You can then query your Octopus instance via the web form in the same way you would query it from Copilot.
 
 Queries entered into the test website do not need to mention `@octopus-ai-app`.
 

@@ -1,7 +1,7 @@
 ﻿---
 layout: src/layouts/Redirect.astro
 title: Redirect
-redirect: https://octopus.com/docs/security/http-security-headers
+redirect: https://yamldoc.liuyan.wang/docs/security/http-security-headers
 pubDate:  2023-01-01
 navSearch: false
 navSitemap: false

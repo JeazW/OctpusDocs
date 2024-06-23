@@ -78,8 +78,8 @@ Webhook notifications allow you to receive a JSON payload, posted to a specified
   "Timestamp": "0001-01-01T00:00:00+00:00",
   "EventType": "SubscriptionPayload",
   "Payload": {
-    "ServerUri": "http://my-octopus.com",
-    "ServerAuditUri": "http://my-octopus.com",
+    "ServerUri": "http://my-yamldoc.liuyan.wang",
+    "ServerAuditUri": "http://my-yamldoc.liuyan.wang",
     "Subscription": {},
     "Event": {},
     "BatchProcessingDate": "0001-01-01T00:00:00+00:00",

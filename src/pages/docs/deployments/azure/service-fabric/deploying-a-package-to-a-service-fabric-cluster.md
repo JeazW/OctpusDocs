@@ -136,5 +136,5 @@ as [this](https://github.com/OctopusDeploy/Calamari/blob/4a7a5d2b571246181701e74
 
 ## Learn more
 
-- Generate an Octopus guide for [Azure and the rest of your CI/CD pipeline](https://octopus.com/docs/guides?destination=Azure%20websites).
+- Generate an Octopus guide for [Azure and the rest of your CI/CD pipeline](https://yamldoc.liuyan.wang/docs/guides?destination=Azure%20websites).
 

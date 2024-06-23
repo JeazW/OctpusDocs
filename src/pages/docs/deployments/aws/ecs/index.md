@@ -50,7 +50,7 @@ Select the `AWS Account` under the `ECS Cluster` section and provide the cluster
 :::
 
 :::div{.hint}
-The benefits of using deployment targets for ECS are outlined in the [ECS RFC blog post](https://octopus.com/blog/rfc-ecs-integration-with-octopus#why-use-targets).
+The benefits of using deployment targets for ECS are outlined in the [ECS RFC blog post](https://yamldoc.liuyan.wang/blog/rfc-ecs-integration-with-octopus#why-use-targets).
 :::
 
 ## Step 3: Add the ECS step

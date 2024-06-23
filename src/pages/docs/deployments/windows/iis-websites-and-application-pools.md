@@ -116,4 +116,4 @@ start of the deployment. This can be done via a script or the `IIS - Change App 
 
 ## Learn more
 
-- Generate an Octopus guide for [IIS and the rest of your CI/CD pipeline](https://octopus.com/docs/guides?destination=IIS).
+- Generate an Octopus guide for [IIS and the rest of your CI/CD pipeline](https://yamldoc.liuyan.wang/docs/guides?destination=IIS).

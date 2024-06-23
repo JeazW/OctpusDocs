@@ -96,7 +96,7 @@ In this case you could:
 3. Optionally create an deployment target trigger in the orchestrating project to start the whole process.
 
 :::div{.success}
-The [Chain Deployment](https://library.octopus.com/step-template/actiontemplate-chain-deployment) step template might be a perfect fit for you in this situation, or you may want to customize this step template for more advanced scenarios.
+The [Chain Deployment](https://library.yamldoc.liuyan.wang/step-template/actiontemplate-chain-deployment) step template might be a perfect fit for you in this situation, or you may want to customize this step template for more advanced scenarios.
 :::
 
 ### Specifying a specific release to be deployed

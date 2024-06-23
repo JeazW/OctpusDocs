@@ -7,11 +7,11 @@ description: Octopus Deploy and Bamboo can work together to make automated, cont
 navOrder: 30
 ---
 
-The Octopus Deploy [add-on for Bamboo](https://octopus.com/downloads) allows packages to be uploaded to an Octopus Server, as well as creating, deploying and promoting releases to your Octopus Deploy [environments](/docs/infrastructure/environments/). The add-on does this by running the [Octopus CLI](/docs/octopus-rest-api/octopus-cli).
+The Octopus Deploy [add-on for Bamboo](https://yamldoc.liuyan.wang/downloads) allows packages to be uploaded to an Octopus Server, as well as creating, deploying and promoting releases to your Octopus Deploy [environments](/docs/infrastructure/environments/). The add-on does this by running the [Octopus CLI](/docs/octopus-rest-api/octopus-cli).
 
 ## Getting started
 
-The plugin relies on a local copy of the [Octopus CLI](/docs/octopus-rest-api/octopus-cli) being available to the build agent. The command line tool can be downloaded from the [Octopus Deploy Download page](https://octopus.com/downloads).
+The plugin relies on a local copy of the [Octopus CLI](/docs/octopus-rest-api/octopus-cli) being available to the build agent. The command line tool can be downloaded from the [Octopus Deploy Download page](https://yamldoc.liuyan.wang/downloads).
 
 Note that while the command line tool package is largely self contained, some Linux distributions require additional libraries to be installed before .NET Core applications will run. These packages are documented at the [Get started with .NET Core](https://www.microsoft.com/net/core) website.
 
@@ -285,4 +285,4 @@ Error conditions encountered by the add-on have unique error codes, which are li
 
 ## Learn more
 
-- Generate an Octopus guide for [Bamboo and the rest of your CI/CD pipeline](https://octopus.com/docs/guides?buildServer=Bamboo).
+- Generate an Octopus guide for [Bamboo and the rest of your CI/CD pipeline](https://yamldoc.liuyan.wang/docs/guides?buildServer=Bamboo).

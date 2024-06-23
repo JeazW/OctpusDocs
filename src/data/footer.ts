@@ -12,37 +12,37 @@ export const menu: (MenuItem | 'categories' | 'tags' | 'toptags')[] = [
     children: [
       {
         title: 'Features',
-        url: 'https://octopus.com/features',
+        url: 'https://yamldoc.liuyan.wang/features',
         order: 1,
       },
       {
         title: 'Tenanted deployments',
-        url: 'https://octopus.com/use-case/tenanted-deployments',
+        url: 'https://yamldoc.liuyan.wang/use-case/tenanted-deployments',
         order: 2,
       },
       {
         title: 'Container deployments',
-        url: 'https://octopus.com/use-case/container-deployments',
+        url: 'https://yamldoc.liuyan.wang/use-case/container-deployments',
         order: 3,
       },
       {
         title: "What's new",
-        url: 'https://octopus.com/whatsnew',
+        url: 'https://yamldoc.liuyan.wang/whatsnew',
         order: 4,
       },
       {
         title: 'Roadmap',
-        url: 'https://roadmap.octopus.com/tabs/2-planned',
+        url: 'https://roadmap.yamldoc.liuyan.wang/tabs/2-planned',
         order: 5,
       },
       {
         title: 'Octopus vs. Azure DevOps',
-        url: 'https://octopus.com/azure-devops',
+        url: 'https://yamldoc.liuyan.wang/azure-devops',
         order: 6,
       },
       {
         title: 'Octopus vs. Jenkins',
-        url: 'https://octopus.com/jenkins',
+        url: 'https://yamldoc.liuyan.wang/jenkins',
         order: 7,
       },
     ],
@@ -58,12 +58,12 @@ export const menu: (MenuItem | 'categories' | 'tags' | 'toptags')[] = [
       },
       {
         title: 'Guides',
-        url: 'https://octopus.com/docs/guides',
+        url: 'https://yamldoc.liuyan.wang/docs/guides',
         order: 2,
       },
       {
         title: 'DevOps handbook',
-        url: 'https://octopus.com/devops/',
+        url: 'https://yamldoc.liuyan.wang/devops/',
         order: 3,
       },
       {
@@ -89,27 +89,27 @@ export const menu: (MenuItem | 'categories' | 'tags' | 'toptags')[] = [
     children: [
       {
         title: 'Contact',
-        url: 'https://octopus.com/company/contact',
+        url: 'https://yamldoc.liuyan.wang/company/contact',
         order: 1,
       },
       {
         title: 'Help and support',
-        url: 'https://octopus.com/support',
+        url: 'https://yamldoc.liuyan.wang/support',
         order: 2,
       },
       {
         title: 'Community',
-        url: 'https://octopus.com/community',
+        url: 'https://yamldoc.liuyan.wang/community',
         order: 3,
       },
       {
         title: 'Discussion forum',
-        url: 'https://help.octopus.com/',
+        url: 'https://help.yamldoc.liuyan.wang/',
         order: 4,
       },
       {
         title: 'Upgrade and renew',
-        url: 'https://octopus.com/upgrade',
+        url: 'https://yamldoc.liuyan.wang/upgrade',
         order: 5,
       },
     ],
@@ -120,37 +120,37 @@ export const menu: (MenuItem | 'categories' | 'tags' | 'toptags')[] = [
     children: [
       {
         title: 'Company',
-        url: 'https://octopus.com/company',
+        url: 'https://yamldoc.liuyan.wang/company',
         order: 1,
       },
       {
         title: 'Partners',
-        url: 'https://octopus.com/partners',
+        url: 'https://yamldoc.liuyan.wang/partners',
         order: 2,
       },
       {
         title: 'Careers',
-        url: 'https://octopus.com/company/careers',
+        url: 'https://yamldoc.liuyan.wang/company/careers',
         order: 3,
       },
       {
         title: 'Trust center',
-        url: 'https://octopus.com/company/trust',
+        url: 'https://yamldoc.liuyan.wang/company/trust',
         order: 4,
       },
       {
         title: 'Security',
-        url: 'https://octopus.com/docs/security',
+        url: 'https://yamldoc.liuyan.wang/docs/security',
         order: 5,
       },
       {
         title: 'Webinars and events',
-        url: 'https://octopus.com/events',
+        url: 'https://yamldoc.liuyan.wang/events',
         order: 6,
       },
       {
         title: 'Stickers and swag',
-        url: 'https://shop.octopus.com/',
+        url: 'https://shop.yamldoc.liuyan.wang/',
         order: 7,
       },
     ],

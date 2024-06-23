@@ -7,7 +7,7 @@ description: Everything you need to know to upgrade an older version of Octopus 
 navOrder: 1
 ---
 
-Upgrading from an older version of Octopus takes some care and preparation. Please take time to read the right guides for your situation, and plan your upgrade carefully. If you run into any problems along the way [we are here to help!](https://octopus.com/support)
+Upgrading from an older version of Octopus takes some care and preparation. Please take time to read the right guides for your situation, and plan your upgrade carefully. If you run into any problems along the way [we are here to help!](https://yamldoc.liuyan.wang/support)
 
 ## Supported upgrade paths {#upgrade-path}
 
@@ -26,7 +26,7 @@ We track any unresolved upgrade problems which require special attention using [
 
 ## Detailed upgrade guides {#upgrade-guides}
 
-- Upgrade from `1.x` to `1.6` by [downloading and running the installer](https://octopus.com/downloads/1.6.3.1723).
+- Upgrade from `1.x` to `1.6` by [downloading and running the installer](https://yamldoc.liuyan.wang/downloads/1.6.3.1723).
 - Upgrade from `1.6` to `2.6.5` using [this detailed guide](/docs/administration/upgrading/legacy/upgrading-from-octopus-1.6-2.6.5).
 - Upgrade from `2.x` to `2.6.5` using [this detailed guide](/docs/administration/upgrading/legacy/upgrading-from-octopus-2.x-2.6.5).
 - Upgrade from `2.6.5` to `2018.10 LTS` using [this detailed guide](/docs/administration/upgrading/legacy/upgrading-from-octopus-2.6.5-2018.10lts).

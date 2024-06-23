@@ -184,8 +184,8 @@ Note that for each output variable/deployment target combination:
 
 For some practical examples of using output variables, and how scoping rules are applied, see the following blog posts:
 
-- [Fun with output variables](https://octopus.com/blog/fun-with-output-variables)
-- [Changing website ports using output variables](http://octopus.com/blog/changing-website-port-on-each-deployment)
+- [Fun with output variables](https://yamldoc.liuyan.wang/blog/fun-with-output-variables)
+- [Changing website ports using output variables](http://yamldoc.liuyan.wang/blog/changing-website-port-on-each-deployment)
 
 ## Output from deploy a release steps {#deploy-release-output}
 
@@ -270,4 +270,4 @@ This allows using `TestResult` as the variable name in dependent steps, rather t
 
 ## Learn more
 
-- [Variable blog posts](https://octopus.com/blog/tag/variables)
+- [Variable blog posts](https://yamldoc.liuyan.wang/blog/tag/variables)

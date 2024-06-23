@@ -15,7 +15,7 @@ Both users and teams are associated with 0 to N external identities.  The extern
   "DisplayName": "Professor Octopus",
   "IsActive": true,
   "IsService": false,
-  "EmailAddress": "professor.octopus@octopus.com",
+  "EmailAddress": "professor.octopus@yamldoc.liuyan.wang",
   "CanPasswordBeEdited": true,
   "IsRequestor": true,
   "Identities": [

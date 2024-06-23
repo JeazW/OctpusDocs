@@ -93,7 +93,7 @@ Returns a paginated list of the Insights reports in the supplied Octopus Deploy 
 | NumberOfPages | The total number of pages |
 | LastPageNumber | The number of the last page of reports, counting from zero |
 | Items | An array of the reports returned for the current page.  See the section [Get a specific Insights Report](#get-a-specific-insights-report) for details of the report structure |
-| Links | Links to other resources.  See REST API Links https://octopus.com/docs/octopus-rest-api#api-links |
+| Links | Links to other resources.  See REST API Links https://yamldoc.liuyan.wang/docs/octopus-rest-api#api-links |
 
 
 ### Create an Insights report
@@ -236,7 +236,7 @@ Retrieves an existing Insights report.
 | TimeZone  | The timezone used in the report, in Windows timezone format | 
 | IconId    | A [Font Awesome](https://fontawesome.com) icon name | 
 | IconColor | The icon color in hex format (example: '#0D80D8') | 
-| Links     | Links to other resources.  See [REST API Links](https://octopus.com/docs/octopus-rest-api#api-links) |
+| Links     | Links to other resources.  See [REST API Links](https://yamldoc.liuyan.wang/docs/octopus-rest-api#api-links) |
 
 ### Update an Insights report
 PUT: `/api/{spaceId}/insights/reports/{reportId}`

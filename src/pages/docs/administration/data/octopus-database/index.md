@@ -47,7 +47,7 @@ Each installation of Octopus Deploy will have different data and usage patterns.
 
 We make certain assumptions about the database schema when you upgrade Octopus Server, and the presence (or absence) of indexes may cause your upgrade to fail. The upgrade process will warn if it finds any custom indexes.
 
-If you feel like an index would benefit everyone using Octopus, please contact our [support team](https://octopus.com/support) so we can consider making that index part of the standard database schema.
+If you feel like an index would benefit everyone using Octopus, please contact our [support team](https://yamldoc.liuyan.wang/support) so we can consider making that index part of the standard database schema.
 
 :::div{.hint}
 **Azure SQL Database automatic index management**

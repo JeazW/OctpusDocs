@@ -1,4 +1,4 @@
-This repository contains the documentation for [Octopus Deploy](https://octopus.com/docs).
+This repository contains the documentation for [Octopus Deploy](https://yamldoc.liuyan.wang/docs).
 
 Contributions to help improve this documentation are welcome, however, you must sign the [Contribution License Agreement (CLA)](https://cla-assistant.io/OctopusDeploy/docs) before we can accept your contribution.
 
@@ -93,7 +93,7 @@ You can use the Front Matter dashboard to find content, media, and snippets - or
 The pages are in the exact page shown on the website, so you can easily translate them. For example:
 
 ```
-https://octopus.com/docs/infrastructure/deployment-targets/tentacle
+https://yamldoc.liuyan.wang/docs/infrastructure/deployment-targets/tentacle
 ```
 
 Can be found in the exact same path within `src/pages/`
@@ -126,7 +126,7 @@ To the new location:
 ---
 layout: src/layouts/Redirect.astro
 title: Redirect
-redirect: https://octopus.com/docs/security/authentication/azure-ad-authentication
+redirect: https://yamldoc.liuyan.wang/docs/security/authentication/azure-ad-authentication
 pubDate:  2023-01-01
 navSearch: false
 navSitemap: false
